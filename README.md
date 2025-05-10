@@ -4,10 +4,10 @@
 ## 🔍 Özellikler
 
 - 📁 PDF yükleme ve analiz
-- 🧠 İsim, kurum, iletişim ve görsel sansürleme (`censorship.py`, `anonymizer.py`)
-- 🔐 Yetkili giriş (editör, hakem) (`auth.py`)
-- ✉️ Hakeme atama ve mesajlaşma sistemi (`routes.py`)
-- 🧾 Loglama desteği (`app.log`, `log_service.py`)
+- 🧠 İsim, kurum, iletişim ve görsel sansürleme 
+- 🔐 Yetkili giriş (editör, hakem) 
+- ✉️ Hakeme atama ve mesajlaşma sistemi 
+- 🧾 Loglama desteği 
 - 📄 Jinja2 ile şablonlu web arayüz
 
 ## 📂 Proje Yapısı
@@ -21,6 +21,6 @@ Academic-PDF-Anonymizer-Platform/
 ├── templates/ # HTML şablonları
 ├── uploads/ # Yüklenen PDF'ler
 ├── outputs/ # Sansürlenmiş çıktılar
-├── db.py # Veritabanı bağlantısı (muhtemelen SQLite)
+├── db.py # Veritabanı bağlantısı 
 ├── config.py # Ayarlar
 └── app.log # Uygulama logları
