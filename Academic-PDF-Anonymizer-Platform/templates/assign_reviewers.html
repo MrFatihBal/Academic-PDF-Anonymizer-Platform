@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Hakem Atama</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 30px;
+            color: white;
+        }
+
+        select {
+            width: 90%;
+            max-width: 400px;
+            padding: 10px;
+            margin-top: 15px;
+            border-radius: 8px;
+            border: none;
+            font-size: 1rem;
+        }
+
+        .reviewer-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 30px;
+        }
+
+        .reviewer-card {
+            width: 180px;
+            height: 230px;
+            border: 2px solid #8e44ad;
+            border-radius: 10px;
+            padding: 15px;
+            background-color: rgba(255, 255, 255, 0.9);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            transition: background-color 0.3s ease, border-color 0.3s ease;
+        }
+
+        .reviewer-card img {
+            width: 60px;
+            height: 60px;
+            margin-bottom: 10px;
+            object-fit: contain;
+        }
+
+        .reviewer-card p {
+            margin: 4px 0;
+            font-size: 14px;
+            color: black;
+        }
+
+        .reviewer-card button {
+            margin-top: 10px;
+            padding: 6px 10px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background-color 0.2s ease;
+        }
+
+        .reviewer-card button:hover {
+            background-color: #0056b3;
+        }
+
+        .selected {
+            background-color: #d4edda !important;
+            border-color: #28a745 !important;
+        }
+
+        .back-button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+
+        .back-button:hover {
+            background-color: #21618c;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>📩 Makale Hakeme Yönlendir</h2>
+
+        <label for="tracking_number"><strong>Seçilecek Anonim Dosya:</strong></label>
+        <select id="tracking_number" onchange="fetchReviewers()">
+            <option value="" disabled selected>Bir makale seçiniz</option>
+            {% for article in articles %}
+                <option value="{{ article[0] }}">{{ article[1] }}</option>
+            {% endfor %}
+        </select>
+
+        <div id="reviewers" class="reviewer-container">
+            {% for reviewer in reviewers %}
+                <div class="reviewer-card">
+                    <img src="{{ url_for('static', filename='user-icon.png') }}" alt="Hakem">
+                    <p><strong>{{ reviewer[0] }} {{ reviewer[1] }}</strong></p>
+                    <p>{{ reviewer[2] }}</p>
+                    <button onclick="assignReviewer('{{ reviewer[2] }}', this)">Seç</button>
+                </div>
+            {% endfor %}
+        </div>
+
+        <a href="/editor"><button class="back-button">↩️ Editör Paneline Dön</button></a>
+    </div>
+
+    <script>
+        function assignReviewer(email, buttonElement) {
+            const trackingNumber = document.getElementById("tracking_number").value;
+    
+            fetch("/assign_reviewers", {
+                method: "POST",
+                headers: {"Content-Type": "application/x-www-form-urlencoded"},
+                body: `tracking_number=${trackingNumber}&reviewer_email=${email}`
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.error) {
+                    alert("⚠️ Hata: " + data.error + "\nDetay: " + data.details);
+                } else {
+                    alert(data.message);
+    
+                    document.querySelectorAll(".reviewer-card").forEach(card =>
+                        card.classList.remove("selected")
+                    );
+                    const card = buttonElement.closest(".reviewer-card");
+                    card.classList.add("selected");
+                }
+            })
+            .catch(error => alert("Bir hata oluştu: " + error));
+        }
+    
+        function fetchReviewers() {
+            const trackingNumber = document.getElementById("tracking_number").value;
+    
+            fetch(`/get_reviewers?tracking_number=${trackingNumber}`)
+            .then(response => response.json())
+            .then(data => {
+                const reviewersDiv = document.getElementById("reviewers");
+                reviewersDiv.innerHTML = '';
+    
+                data.reviewers.forEach(reviewer => {
+                    reviewersDiv.innerHTML += `
+                    <div class="reviewer-card">
+                        <img src="/static/user-icon.png" alt="Hakem">
+                        <p><strong>${reviewer.first_name} ${reviewer.last_name}</strong></p>
+                        <p>${reviewer.email}</p>
+                        <button onclick="assignReviewer('${reviewer.email}', this)">Seç</button>
+                    </div>`;
+                });
+            });
+        }
+    
+        window.onload = function() {
+            fetchReviewers();
+        };
+    
+        document.getElementById("tracking_number").addEventListener("change", fetchReviewers);
+    </script>    
+</body>
+</html>

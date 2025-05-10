@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Yazara Mesaj Gönder</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 40px;
+            margin-top: 50px;
+        }
+
+        .form-box {
+            width: 400px;
+            background: rgba(0, 0, 0, 0.3);
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .message-box {
+            width: 500px;
+            background: rgba(0, 0, 0, 0.3);
+            padding: 20px;
+            border-radius: 10px;
+            max-height: 500px;
+            overflow-y: auto;
+        }
+
+        h2, h3 {
+            color: white;
+            text-align: center;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            align-items: center;
+        }
+
+        .form-group {
+            width: 100%;
+            text-align: left;
+            color: white;
+        }
+
+        select, textarea {
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            font-size: 1rem;
+        }
+
+        textarea {
+            resize: none;
+            height: 100px;
+        }
+
+        button {
+            padding: 12px;
+            border: none;
+            border-radius: 5px;
+            background-color: #28a745;
+            color: white;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #218838;
+        }
+
+        .message-item {
+            background: rgba(255, 255, 255, 0.9);
+            color: black;
+            padding: 10px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        .message-item small {
+            display: block;
+            margin-top: 5px;
+            color: gray;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="form-box">
+            <h2>✉️ Yazara Mesaj Gönder</h2>
+            <form method="POST">
+                <div class="form-group">
+                    <label for="author_email">Yazar Seçin:</label>
+                    <select name="author_email" required>
+                        <option value="">Yazar Seçin</option>
+                        {% for author in authors %}
+                            <option value="{{ author[0] }}">{{ author[0] }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="message_text">Mesaj:</label>
+                    <textarea name="message_text" placeholder="Mesajınızı yazın..." required></textarea>
+                </div>
+
+                <button type="submit">Gönder</button>
+            </form>
+        </div>
+
+        <div class="message-box">
+            <h3>📨 Gönderilen Mesajlar</h3>
+            {% if messages %}
+                {% for msg in messages %}
+                    <div class="message-item">
+                        <strong>{{ msg[0] }}</strong><br>
+                        {{ msg[1] }}
+                        <small>{{ msg[2].strftime("%Y-%m-%d %H:%M") }}</small>
+                    </div>
+                {% endfor %}
+            {% else %}
+                <p style="color:white;">Henüz mesaj gönderilmedi.</p>
+            {% endif %}
+        </div>
+    </div>
+</body>
+</html>

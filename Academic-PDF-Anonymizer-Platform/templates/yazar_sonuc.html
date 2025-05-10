@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Makale Değerlendirme Sonucu</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        .result-box {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 30px 50px;
+            border-radius: 15px;
+            text-align: center;
+            color: white;
+            max-width: 500px;
+            width: 90%;
+        }
+
+        .result-box input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            border: none;
+        }
+
+        .result-box button {
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .result-box button:hover {
+            background-color: #218838;
+        }
+
+        .result-box a {
+            display: inline-block;
+            margin-top: 15px;
+            background-color: #8e44ad;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 8px;
+            text-decoration: none;
+        }
+
+        .result-box a:hover {
+            background-color: #732d91;
+        }
+
+        .error-message {
+            color: red;
+            margin-top: 10px;
+        }
+
+        .success-message {
+            color: #2ecc71;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" style="display: flex; justify-content: center; align-items: center; height: 100vh; flex-direction: column;">
+        <div class="result-box">
+            <h2>📄 Makale Değerlendirme Sonucu</h2>
+
+            <form method="POST" action="/yazar_sonuc">
+                <label>Takip Numarası:</label>
+                <input type="text" name="tracking_number" required>
+                <button type="submit">Göster</button>
+            </form>
+
+            {% if error %}
+                <p class="error-message">{{ error }}</p>
+            {% endif %}
+
+            {% if show_pdf %}
+                <p class="success-message">Makale değerlendirilmiş ve onaylanmış ✅</p>
+                <a href="{{ url_for('final_pdf_with_review', tracking_number=tracking_number) }}" target="_blank">
+                    📄 PDF'yi Görüntüle
+                </a>
+            {% endif %}
+
+            <br>
+            <a href="/"><button style="margin-top: 20px;">🏠 Ana Sayfaya Dön</button></a>
+        </div>
+    </div>
+</body>
+</html>

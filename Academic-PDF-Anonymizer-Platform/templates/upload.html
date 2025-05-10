@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Makale Yükle veya Revize Et</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        .upload-box {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 30px 50px;
+            border-radius: 15px;
+            text-align: center;
+            color: white;
+            max-width: 450px;
+            width: 90%;
+        }
+
+        .upload-box input[type="email"],
+        .upload-box input[type="file"],
+        .upload-box input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            border: none;
+        }
+
+        .upload-box button {
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .upload-box button:hover {
+            background-color: #218838;
+        }
+
+        .upload-box label {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" style="display: flex; justify-content: center; align-items: center; height: 100vh; flex-direction: column;">
+        <div class="upload-box">
+            <h2>📄 Makale Yükleme / Revize Etme</h2>
+            <form id="upload-form" action="/upload" method="POST" enctype="multipart/form-data">
+                <label for="email">E-posta:</label>
+                <input type="email" name="email" required>
+
+                <label for="file">Makale (PDF):</label>
+                <input type="file" name="file" accept=".pdf" required>
+
+                <label for="is_revision">
+                    <input type="checkbox" id="is_revision" name="is_revision" onclick="toggleTrackingNumber()"> Revizyon Yükleme
+                </label>
+
+                <div id="tracking_number_section" style="display: none; margin-top: 10px;">
+                    <label for="tracking_number">Takip Numarası:</label>
+                    <input type="text" name="tracking_number">
+                </div>
+
+                <button type="submit">Yükle</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        function toggleTrackingNumber() {
+            let checkbox = document.getElementById("is_revision");
+            let trackingSection = document.getElementById("tracking_number_section");
+
+            if (checkbox.checked) {
+                trackingSection.style.display = "block";
+            } else {
+                trackingSection.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>

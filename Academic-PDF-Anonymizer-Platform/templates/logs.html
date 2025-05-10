@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>📜 Log Kayıtları</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        .log-box {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 30px 50px;
+            border-radius: 15px;
+            color: white;
+            max-width: 90%;
+            overflow-x: auto;
+            text-align: center;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #555;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #8e44ad;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+
+        tr:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+
+        .back-button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+
+        .back-button:hover {
+            background-color: #21618c;
+        }
+
+        .no-log {
+            color: #f1c40f;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" style="display: flex; justify-content: center; align-items: center; flex-direction: column; margin-top: 30px;">
+        <div class="log-box">
+            <h2>📜 Log Kayıtları</h2>
+
+            {% if logs[0] == "Henüz kayıtlı bir işlem bulunmamaktadır." %}
+                <p class="no-log">⚠️ Henüz kayıtlı bir işlem bulunmamaktadır.</p>
+            {% else %}
+                <table>
+                    <tr>
+                        <th>Zaman</th>
+                        <th>İşlem</th>
+                        <th>Kullanıcı Rolü</th>
+                    </tr>
+                    {% for log in logs %}
+                    {% set log_parts = log.replace("# ", "").split(" - ") %}
+                    <tr>
+                        <td>{{ log_parts[0] }}</td>
+                        <td>{{ log_parts[1] }}</td>
+                        <td>{{ log_parts[2] if log_parts|length > 2 else "Bilinmeyen" }}</td>
+                    </tr>
+                    {% endfor %}
+                </table>
+            {% endif %}
+
+            <a href="/editor"><button class="back-button">↩️ Editör Paneline Dön</button></a>
+        </div>
+    </div>
+</body>
+</html>

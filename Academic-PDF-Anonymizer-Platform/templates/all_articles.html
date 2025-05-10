@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Tüm Makaleler</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        .article-box {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 30px 50px;
+            border-radius: 15px;
+            color: white;
+            max-width: 90%;
+            overflow-x: auto;
+            text-align: center;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #555;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #8e44ad;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+
+        tr:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+
+        a {
+            color: #00ffff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .back-button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+
+        .back-button:hover {
+            background-color: #21618c;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" style="display: flex; justify-content: center; align-items: center; flex-direction: column; margin-top: 30px;">
+        <div class="article-box">
+            <h2>📄 Tüm Makaleler</h2>
+
+            <table>
+                <tr>
+                    <th>Takip Numarası</th>
+                    <th>Yazar E-posta</th>
+                    <th>Dosya Adı</th>
+                    <th>Durum</th>
+                    <th>İşlemler</th>
+                </tr>
+                {% for article in articles %}
+                <tr>
+                    <td>{{ article[0] }}</td>
+                    <td>{{ article[1] }}</td>
+                    <td>{{ article[2] }}</td>
+                    <td>{{ article[3] }}</td>
+                    <td>
+                        <a href="{{ url_for('uploaded_file', filename=article[2]) }}" target="_blank">📄 Görüntüle</a> |
+                        <a href="{{ url_for('uploaded_file', filename=article[2]) }}" download>⬇️ İndir</a>
+                    </td>
+                </tr>
+                {% endfor %}
+            </table>
+
+            <a href="/editor"><button class="back-button">↩️ Editör Paneline Dön</button></a>
+        </div>
+    </div>
+</body>
+</html>

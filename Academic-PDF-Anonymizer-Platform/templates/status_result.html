@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Makale Durumu</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        {% if status %}
+            <div class="status-card">
+                <h2>📄 Takip Numarası</h2>
+                <p>{{ tracking_number }}</p>
+                <h3>📌 Durum</h3>
+                <p>{{ status }}</p>
+            </div>
+        {% elif error %}
+            <div class="status-card">
+                <p>{{ error }}</p>
+            </div>
+        {% endif %}
+        <a href="/"><button>🏠 Ana Sayfa</button></a>
+    </div>
+</body>
+</html>

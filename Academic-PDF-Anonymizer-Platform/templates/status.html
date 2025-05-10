@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Makale Durum Sorgulama</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        .status-box {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 30px 50px;
+            border-radius: 15px;
+            text-align: center;
+            color: white;
+            max-width: 400px;
+            width: 90%;
+        }
+
+        .status-box input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-top: 15px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            border: none;
+        }
+
+        .status-box button {
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+
+        .status-box button:hover {
+            background-color: #218838;
+        }
+
+        .status-box a button {
+            background-color: #3498db;
+        }
+
+        .status-box a button:hover {
+            background-color: #21618c;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" style="display: flex; justify-content: center; align-items: center; height: 100vh; flex-direction: column;">
+        <div class="status-box">
+            <h2>🔍 Makale Durum Sorgulama</h2>
+            <form action="/status_result" method="POST">
+                <input type="text" name="tracking_number" placeholder="Takip Numarası" required>
+                <button type="submit">Durumu Sorgula</button>
+            </form>
+            <br>
+            <a href="/"><button>🏠 Ana Sayfa</button></a>
+        </div>
+    </div>
+</body>
+</html>

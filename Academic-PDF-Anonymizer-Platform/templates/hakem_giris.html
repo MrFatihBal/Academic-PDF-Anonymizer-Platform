@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Hakem Girişi</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        .login-container {
+            width: 400px;
+            margin: 80px auto;
+            padding: 30px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+            color: black; /* Yazı rengi siyah */
+            text-align: center;
+        }
+
+        .login-container h2 {
+            margin-bottom: 20px;
+            color: black; /* Başlık rengi siyah */
+        }
+
+        .login-container label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: black; /* Label rengi siyah */
+        }
+
+        .login-container select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        .login-container button {
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .login-container button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="login-container">
+            <h2>👤 Hakem Girişi</h2>
+            <form method="POST" action="/hakem_paneli">
+                <label for="email">Lütfen kendinizi seçin:</label>
+                <select name="email" required>
+                    {% for reviewer in reviewers %}
+                    <option value="{{ reviewer[0] }}">{{ reviewer[1] }} ({{ reviewer[0] }})</option>
+                    {% endfor %}
+                </select>
+                <button type="submit">Giriş Yap</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Makale Yükleme Başarılı</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <div style="text-align: center; margin-top: 100px;">
+        <h2>✅ Makaleniz başarıyla yüklendi!</h2>
+
+        <p><strong>Takip Numarası:</strong> {{ tracking_number }}</p>
+        <p><strong>Konu:</strong> {{ topic }}</p>
+
+        <br>
+
+        <a href="/" class="btn" style="display: block; margin: 10px auto;">🏠 Ana Sayfa</a>
+        <a href="/upload" class="btn" style="display: block; margin: 10px auto;">📄 Yeni Makale Yükle</a>
+    </div>
+
+</body>
+</html>

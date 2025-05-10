@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Makale Yönetim Sistemi</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='Style.css') }}">
+    
+</head>
+<body>
+    <div class="container">
+        <h2>Makale Yönetim Sistemi</h2>
+        
+        <a href="/yazar"><button>📄 Yazar (Kullanıcı)</button></a>
+        <a href="/editor"><button>🛠️ Editör (Yönetici)</button></a>
+        <a href="/hakem_giris"><button>🔍 Hakem (Değerlendirici)</button></a>
+    </div>
+</body>
+</html>

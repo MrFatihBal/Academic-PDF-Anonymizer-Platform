@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Yazar Paneli</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>📄 Yazar Paneli</h2>
+
+        <a href="/upload"><button>📤 Makale Yükle</button></a>
+        <a href="/message"><button>✉️ Editöre Mesaj Gönder</button></a>
+        <a href="/status_page"><button>📊 Değerlendirme Sürecini Takip Et</button></a>
+        <a href="/notifications"><button>🔔 Bildirimleri Görüntüle</button></a>
+        <a href="/yazar_sonuc"><button>🔔 Sonuçları ve Hakem Geri Bildirimlerini Görüntüle</button></a>
+
+        <br><br>
+        <a href="/"><button>🏠 Ana Menüye Dön</button></a>
+    </div>
+</body>
+</html>

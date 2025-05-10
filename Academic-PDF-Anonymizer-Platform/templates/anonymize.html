@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Makale Anonimleştirme</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        .anonym-box {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 30px 50px;
+            border-radius: 15px;
+            text-align: center;
+            color: white;
+            max-width: 450px;
+            width: 90%;
+        }
+
+        .anonym-box select {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            border: none;
+        }
+
+        .anonym-box button {
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 15px;
+        }
+
+        .anonym-box button:hover {
+            background-color: #218838;
+        }
+
+        .info-text {
+            margin-top: 20px;
+            font-size: 0.95rem;
+            color: #f1c40f;
+        }
+
+        .result-message {
+            color: #2ecc71;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" style="display: flex; justify-content: center; align-items: center; height: 100vh; flex-direction: column;">
+        <div class="anonym-box">
+            <h2>🙈 Makale Anonimleştirme</h2>
+
+            <form action="/anonymize" method="POST">
+                <label for="selected_file">Bir makale seçin:</label>
+                <select name="selected_tracking" required>
+                    {% for article in articles %}
+                        <option value="{{ article[0] }}">{{ article[0] }}</option>
+                    {% endfor %}
+                </select>
+
+                <p class="info-text">⚠️ Anonimleştirme işlemi; <strong>isim, kurum</strong> ve <strong>resim</strong> bilgilerini otomatik olarak gizler.</p>
+
+                <button type="submit">✅ Anonimleştir</button>
+            </form>
+
+            {% if result %}
+                <p class="result-message">{{ result }}</p>
+            {% endif %}
+        </div>
+    </div>
+</body>
+</html>

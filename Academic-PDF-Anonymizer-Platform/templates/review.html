@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Hakem Değerlendirme</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>Hakem Değerlendirme</h2>
+        <form action="/review" method="POST">
+            <label for="tracking_number">Takip Numarası:</label>
+            <input type="text" name="tracking_number" required>
+            <label for="review">Değerlendirme:</label>
+            <textarea name="review" rows="4" required></textarea>
+            <button type="submit">Gönder</button>
+        </form>
+    </div>
+</body>
+</html>

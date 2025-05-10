@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Hakem Değerlendirme Raporu</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        .action-buttons {
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .pdf-button, .approve-button, .back-button {
+            padding: 10px 25px;
+            border: none;
+            border-radius: 8px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .pdf-button {
+            background-color: #8e44ad;
+            color: white;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        .pdf-button:hover {
+            background-color: #732d91;
+        }
+
+        .approve-button {
+            background-color: #27ae60;
+            color: white;
+        }
+
+        .approve-button:hover {
+            background-color: #1e8449;
+        }
+
+        .back-button {
+            background-color: #3498db;
+            color: white;
+        }
+
+        .back-button:hover {
+            background-color: #21618c;
+        }
+
+        select {
+            margin-top: 10px;
+            padding: 8px;
+            font-size: 1rem;
+            border-radius: 5px;
+            width: 250px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>📋 Hakem Değerlendirme Raporu</h2>
+
+        <form method="POST" action="/editor/review">
+            <label for="tracking_number"><strong>Takip Numarası Seç:</strong></label>
+            <select name="tracking_number" id="tracking_number" required>
+                <option value="" disabled selected>Bir makale seçiniz</option>
+                {% for tracking in tracking_numbers %}
+                <option value="{{ tracking }}">{{ tracking }}</option>
+                {% endfor %}
+            </select>
+
+            <div class="action-buttons">
+                <a id="pdfLink" href="#" target="_blank" class="pdf-button">📄 PDF'yi İncele</a>
+                <button type="submit" name="action" value="approve" class="approve-button">✅ Onayla ve Yazara Gönder</button>
+            </div>
+        </form>
+
+        <br>
+        <a href="/editor"><button class="back-button">🔙 Editör Paneline Dön</button></a>
+    </div>
+
+    <script>
+        const select = document.getElementById("tracking_number");
+        const link = document.getElementById("pdfLink");
+
+        select.addEventListener("change", function() {
+            const trackingNumber = select.value;
+            if (trackingNumber) {
+                link.href = `/editor/final_pdf/${trackingNumber}`;
+            }
+        });
+
+        // Sayfa yüklenince ilk seçenek varsa link güncelle
+        window.onload = function() {
+            if (select.value) {
+                link.href = `/editor/final_pdf/${select.value}`;
+            }
+        }
+    </script>
+</body>
+</html>

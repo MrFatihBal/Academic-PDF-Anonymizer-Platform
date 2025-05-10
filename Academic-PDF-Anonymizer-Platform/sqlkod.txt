@@ -1,0 +1,94 @@
+CREATE DATABASE YeniMakaleSistemi;
+
+USE YeniMakaleSistemi;
+
+CREATE TABLE articles (
+    id INT IDENTITY(1,1) PRIMARY KEY,
+    email NVARCHAR(255) NOT NULL,
+    file_name NVARCHAR(255) NOT NULL,
+    tracking_number NVARCHAR(50) NOT NULL UNIQUE,
+    status NVARCHAR(50) DEFAULT 'Beklemede',
+    topic NVARCHAR(255)
+);
+
+CREATE TABLE anonymous_articles (
+    id INT IDENTITY(1,1) PRIMARY KEY,
+    tracking_number NVARCHAR(50),
+    original_article_id INT,
+    anonymous_pdf NVARCHAR(255),
+    assigned_reviewer NVARCHAR(255),
+    uploaded_at DATETIME DEFAULT GETDATE()
+);
+
+CREATE TABLE messages (
+    id INT IDENTITY(1,1) PRIMARY KEY,
+    sender_email NVARCHAR(255) NOT NULL,
+    receiver_email NVARCHAR(255) NOT NULL,
+    message_text NVARCHAR(MAX) NOT NULL,
+    sent_at DATETIME DEFAULT GETDATE()
+);
+
+CREATE TABLE notifications (
+    id INT IDENTITY(1,1) PRIMARY KEY,
+    email NVARCHAR(255) NOT NULL,
+    message_text NVARCHAR(MAX) NOT NULL,
+    sent_at DATETIME DEFAULT GETDATE()
+);
+
+CREATE TABLE reviewers (
+    id INT IDENTITY(1,1) PRIMARY KEY,
+    first_name NVARCHAR(255),
+    last_name NVARCHAR(255),
+    email NVARCHAR(255),
+    available BIT DEFAULT 1,
+    expertise NVARCHAR(255)
+);
+
+CREATE TABLE reviews (
+    id INT IDENTITY(1,1) PRIMARY KEY,
+    tracking_number NVARCHAR(50) NOT NULL,
+    fluency FLOAT,
+    content FLOAT,
+    originality FLOAT,
+    impact FLOAT,
+    methodology FLOAT,
+    review_text NVARCHAR(MAX),
+    FOREIGN KEY (tracking_number) REFERENCES articles(tracking_number)
+);
+
+USE YeniMakaleSistemi;
+
+INSERT INTO reviewers (first_name, last_name, email, available, expertise) VALUES
+('Ali', 'Yılmaz', 'ali.yilmaz@hakem.com', 1, 'Yapay Zeka ve Makine Öğrenimi'),
+('Ayşe', 'Demir', 'ayse.demir@hakem.com', 1, 'Yapay Zeka ve Makine Öğrenimi'),
+('Mehmet', 'Kaya', 'mehmet.kaya@hakem.com', 1, 'Yapay Zeka ve Makine Öğrenimi'),
+('Elif', 'Aydın', 'elif.aydin@hakem.com', 1, 'Yapay Zeka ve Makine Öğrenimi'),
+('Hasan', 'Çelik', 'hasan.celik@hakem.com', 1, 'Büyük Veri ve Veri Analitiği'),
+('Zeynep', 'Şahin', 'zeynep.sahin@hakem.com', 1, 'Büyük Veri ve Veri Analitiği'),
+('Murat', 'Polat', 'murat.polat@hakem.com', 1, 'Büyük Veri ve Veri Analitiği'),
+('Fatma', 'Öztürk', 'fatma.ozturk@hakem.com', 1, 'Büyük Veri ve Veri Analitiği'),
+('Hüseyin', 'Arslan', 'huseyin.arslan@hakem.com', 1, 'İnsan-Bilgisayar Etkileşimi'),
+('Cem', 'Korkmaz', 'cem.korkmaz@hakem.com', 1, 'İnsan-Bilgisayar Etkileşimi'),
+('Buse', 'Koç', 'buse.koc@hakem.com', 1, 'İnsan-Bilgisayar Etkileşimi'),
+('Emre', 'Yıldız', 'emre.yildiz@hakem.com', 1, 'İnsan-Bilgisayar Etkileşimi'),
+('Can', 'Güneş', 'can.gunes@hakem.com', 1, 'Ağ ve Dağıtık Sistemler'),
+('Derya', 'Keskin', 'derya.keskin@hakem.com', 1, 'Ağ ve Dağıtık Sistemler'),
+('Barış', 'Özkan', 'baris.ozkan@hakem.com', 1, 'Ağ ve Dağıtık Sistemler'),
+('Nazan', 'Türkmen', 'nazan.turkmen@hakem.com', 1, 'Ağ ve Dağıtık Sistemler'),
+('Yasin', 'Aksoy', 'yasin.aksoy@hakem.com', 1, 'Siber Güvenlik'),
+('Selin', 'Yavuz', 'selin.yavuz@hakem.com', 1, 'Siber Güvenlik'),
+('Serkan', 'Çoban', 'serkan.coban@hakem.com', 1, 'Siber Güvenlik'),
+('Gül', 'Ekinci', 'gul.ekinci@hakem.com', 1, 'Siber Güvenlik');
+
+#db.py için DİKKAT DİKKAT AMQ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+def get_db_connection():
+    try:
+        conn = pyodbc.connect('Driver={SQL Server};'
+                              'Server=FATIHBAL;'
+                              'Database=YeniMakaleSistemi;'
+                              'Trusted_Connection=yes;')
+        return conn
+    except Error as e:
+        print("Bağlantı hatası:", e)
+        return None
+

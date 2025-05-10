@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Bildirimleri Kontrol Et</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        .notification-box {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 30px 50px;
+            border-radius: 15px;
+            text-align: center;
+            color: white;
+            max-width: 500px;
+            width: 90%;
+        }
+
+        .notification-box input[type="email"] {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            border: none;
+        }
+
+        .notification-box button {
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .notification-box button:hover {
+            background-color: #218838;
+        }
+
+        .notification-list {
+            margin-top: 20px;
+            background: rgba(255, 255, 255, 0.8);
+            color: black;
+            padding: 15px;
+            border-radius: 10px;
+            max-height: 300px;
+            overflow-y: auto;
+            text-align: left;
+        }
+
+        .notification-list p, .notification-list ul {
+            margin: 0;
+        }
+
+        .notification-list ul {
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" style="display: flex; justify-content: center; align-items: center; height: 100vh; flex-direction: column;">
+        <div class="notification-box">
+            <h2>🔔 Bildirimleri Kontrol Et</h2>
+            <form type="GET" onsubmit="event.preventDefault(); getNotifications();">
+                <label for="email">E-posta Adresiniz:</label>
+                <input type="email" id="email" required>
+                <button type="submit">Bildirimleri Göster</button>
+            </form>
+
+            <div id="notification-list" class="notification-list">
+                <p>Burada bildirimleriniz görünecek.</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function getNotifications() {
+            let email = document.getElementById("email").value;
+            if (!email) {
+                alert("Lütfen bir e-posta adresi girin.");
+                return;
+            }
+
+            fetch(`/get_notifications?email=${email}`)
+                .then(response => response.json())
+                .then(data => {
+                    let resultDiv = document.getElementById("notification-list");
+                    resultDiv.innerHTML = "";  
+
+                    let title = document.createElement("h3");
+                    title.innerText = `Bildirimler (${email})`;
+                    resultDiv.appendChild(title);
+
+                    if (data.notifications.length === 0) {
+                        let noNotifications = document.createElement("p");
+                        noNotifications.innerText = "Şu an bildiriminiz yok.";
+                        resultDiv.appendChild(noNotifications);
+                    } else {
+                        let ul = document.createElement("ul");
+                        data.notifications.forEach(notif => {
+                            let li = document.createElement("li");
+                            li.innerHTML = `<strong>${notif.from}:</strong> ${notif.message} <br> <small>${notif.sent_at}</small>`;
+                            ul.appendChild(li);
+                        });
+                        resultDiv.appendChild(ul);
+                    }
+                })
+                .catch(error => console.error("Hata:", error));
+        }
+    </script>
+</body>
+</html>

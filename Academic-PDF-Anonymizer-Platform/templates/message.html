@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Mesaj Gönder</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        .container {
+            width: 90%;
+            max-width: 500px;
+            margin: 0 auto;
+            margin-top: 50px;
+            background: rgba(0, 0, 0, 0.3);
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            font-size: 1.8rem;
+        }
+
+        .message-form {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+        }
+
+        .form-group label {
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        .form-group input,
+        .form-group textarea {
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            font-size: 1rem;
+            width: 100%;
+            min-width: 250px;
+        }
+
+        .form-group textarea {
+            resize: none;
+            height: 100px;
+        }
+
+        button {
+            padding: 12px;
+            border: none;
+            border-radius: 5px;
+            background-color: #28a745;
+            color: white;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Mesaj Gönder</h2>
+        <form action="/send_message" method="POST" class="message-form">
+            <div class="form-group">
+                <label for="sender_email">Gönderen E-posta:</label>
+                <input type="email" name="sender_email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="receiver_email">Alıcı E-posta:</label>
+                <input type="email" name="receiver_email" value="editor@example.com" readonly disabled>
+                <input type="hidden" name="receiver_email" value="editor@example.com">
+            </div>
+
+            <div class="form-group">
+                <label for="message_text">Mesaj:</label>
+                <textarea name="message_text" required></textarea>
+            </div>
+
+            <div class="form-group">
+                <button type="submit">Gönder</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

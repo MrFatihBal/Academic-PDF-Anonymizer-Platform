@@ -1,0 +1,1211 @@
+2025-03-08 04:09:17,113 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-08 04:09:17,113 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-08 04:09:17,114 - INFO -  * Restarting with stat
+2025-03-08 04:09:17,409 - WARNING -  * Debugger is active!
+2025-03-08 04:09:17,412 - INFO -  * Debugger PIN: 873-261-094
+2025-03-08 04:12:49,052 - INFO -  * Detected change in 'C:\\Users\\fatih.FATIHBAL\\OneDrive\\Masa�st�\\Yazlab_2.1\\app.py', reloading
+2025-03-08 04:12:49,085 - INFO -  * Restarting with stat
+2025-03-08 04:12:49,390 - WARNING -  * Debugger is active!
+2025-03-08 04:12:49,392 - INFO -  * Debugger PIN: 873-261-094
+2025-03-08 04:14:13,734 - INFO -  * Detected change in 'C:\\Users\\fatih.FATIHBAL\\OneDrive\\Masa�st�\\Yazlab_2.1\\app.py', reloading
+2025-03-08 04:14:13,773 - INFO -  * Restarting with stat
+2025-03-08 04:14:14,098 - WARNING -  * Debugger is active!
+2025-03-08 04:14:14,101 - INFO -  * Debugger PIN: 873-261-094
+2025-03-08 04:14:16,204 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-08 04:14:16,204 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-08 04:14:16,205 - INFO -  * Restarting with stat
+2025-03-08 04:14:16,488 - WARNING -  * Debugger is active!
+2025-03-08 04:14:16,490 - INFO -  * Debugger PIN: 873-261-094
+2025-03-08 04:15:28,128 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-08 04:15:28,128 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-08 04:15:28,129 - INFO -  * Restarting with stat
+2025-03-08 04:15:28,410 - WARNING -  * Debugger is active!
+2025-03-08 04:15:28,412 - INFO -  * Debugger PIN: 873-261-094
+2025-03-08 04:15:41,451 - INFO -  * Detected change in 'C:\\Users\\fatih.FATIHBAL\\OneDrive\\Masa�st�\\Yazlab_2.1\\app.py', reloading
+2025-03-08 04:15:41,484 - INFO -  * Restarting with stat
+2025-03-08 04:15:41,793 - WARNING -  * Debugger is active!
+2025-03-08 04:15:41,795 - INFO -  * Debugger PIN: 873-261-094
+2025-03-08 04:15:43,720 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.31:5000
+2025-03-08 04:15:43,720 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-08 04:15:43,721 - INFO -  * Restarting with stat
+2025-03-08 04:15:44,008 - WARNING -  * Debugger is active!
+2025-03-08 04:15:44,010 - INFO -  * Debugger PIN: 873-261-094
+2025-03-08 04:15:47,163 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.31:5000
+2025-03-08 04:15:47,163 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-08 04:15:47,164 - INFO -  * Restarting with stat
+2025-03-08 04:15:47,441 - WARNING -  * Debugger is active!
+2025-03-08 04:15:47,443 - INFO -  * Debugger PIN: 873-261-094
+2025-03-08 04:16:10,513 - INFO - 127.0.0.1 - - [08/Mar/2025 04:16:10] "GET / HTTP/1.1" 200 -
+2025-03-08 04:16:10,786 - INFO - 127.0.0.1 - - [08/Mar/2025 04:16:10] "GET /static/style.css HTTP/1.1" 200 -
+2025-03-08 04:16:10,841 - INFO - 127.0.0.1 - - [08/Mar/2025 04:16:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-08 04:16:22,510 - INFO - 127.0.0.1 - - [08/Mar/2025 04:16:22] "GET /anonymize HTTP/1.1" 200 -
+2025-03-08 04:16:22,838 - INFO - 127.0.0.1 - - [08/Mar/2025 04:16:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-08 04:16:25,339 - INFO - 127.0.0.1 - - [08/Mar/2025 04:16:25] "[33mPOST /anonymize HTTP/1.1[0m" 404 -
+2025-03-08 04:16:29,412 - INFO - 127.0.0.1 - - [08/Mar/2025 04:16:29] "GET /upload HTTP/1.1" 200 -
+2025-03-08 04:16:29,645 - INFO - 127.0.0.1 - - [08/Mar/2025 04:16:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-08 04:16:37,127 - INFO - Aksiyon: Makale y�kleme hatas�: 'ascii' codec can't encode character '\u015f' in position 21: ordinal not in range(128), Kullan�c� Rol�: None
+2025-03-08 04:16:37,127 - INFO - 127.0.0.1 - - [08/Mar/2025 04:16:37] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-08 04:16:45,859 - INFO - 127.0.0.1 - - [08/Mar/2025 04:16:45] "[31m[1mGET /status HTTP/1.1[0m" 400 -
+2025-03-08 04:16:49,954 - INFO - 127.0.0.1 - - [08/Mar/2025 04:16:49] "GET /review HTTP/1.1" 200 -
+2025-03-08 04:16:50,278 - INFO - 127.0.0.1 - - [08/Mar/2025 04:16:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-08 04:40:40,406 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.31:5000
+2025-03-08 04:40:40,406 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-08 04:40:40,408 - INFO -  * Restarting with stat
+2025-03-08 04:40:40,725 - WARNING -  * Debugger is active!
+2025-03-08 04:40:40,727 - INFO -  * Debugger PIN: 873-261-094
+2025-03-08 04:40:52,643 - INFO - 127.0.0.1 - - [08/Mar/2025 04:40:52] "GET / HTTP/1.1" 200 -
+2025-03-08 04:40:52,940 - INFO - 127.0.0.1 - - [08/Mar/2025 04:40:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-08 04:41:00,253 - INFO - 127.0.0.1 - - [08/Mar/2025 04:41:00] "GET /upload HTTP/1.1" 200 -
+2025-03-08 04:41:00,576 - INFO - 127.0.0.1 - - [08/Mar/2025 04:41:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-08 04:41:13,285 - INFO - Aksiyon: Makale y�kleme hatas�: 'ascii' codec can't encode character '\u015f' in position 21: ordinal not in range(128), Kullan�c� Rol�: None
+2025-03-08 04:41:13,289 - INFO - 127.0.0.1 - - [08/Mar/2025 04:41:13] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-08 04:41:31,373 - INFO - 127.0.0.1 - - [08/Mar/2025 04:41:31] "[31m[1mGET /status HTTP/1.1[0m" 400 -
+2025-03-08 04:41:35,293 - INFO - 127.0.0.1 - - [08/Mar/2025 04:41:35] "GET /anonymize HTTP/1.1" 200 -
+2025-03-08 04:41:35,624 - INFO - 127.0.0.1 - - [08/Mar/2025 04:41:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-08 04:41:40,149 - INFO - 127.0.0.1 - - [08/Mar/2025 04:41:40] "GET /review HTTP/1.1" 200 -
+2025-03-08 04:41:40,470 - INFO - 127.0.0.1 - - [08/Mar/2025 04:41:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-09 17:40:50,628 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.31:5000
+2025-03-09 17:40:50,628 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-09 17:40:50,630 - INFO -  * Restarting with stat
+2025-03-09 17:40:59,117 - WARNING -  * Debugger is active!
+2025-03-09 17:40:59,120 - INFO -  * Debugger PIN: 873-261-094
+2025-03-09 17:40:59,136 - INFO - 127.0.0.1 - - [09/Mar/2025 17:40:59] "[33mGET / HTTP/1.1[0m" 404 -
+2025-03-09 17:40:59,137 - INFO - 127.0.0.1 - - [09/Mar/2025 17:40:59] "[33mGET / HTTP/1.1[0m" 404 -
+2025-03-09 17:40:59,138 - INFO - 127.0.0.1 - - [09/Mar/2025 17:40:59] "[33mGET / HTTP/1.1[0m" 404 -
+2025-03-09 17:40:59,475 - INFO - 127.0.0.1 - - [09/Mar/2025 17:40:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-09 17:41:01,952 - INFO - 127.0.0.1 - - [09/Mar/2025 17:41:01] "[33mGET / HTTP/1.1[0m" 404 -
+2025-03-09 17:43:47,480 - INFO - 127.0.0.1 - - [09/Mar/2025 17:43:47] "[31m[1mGET /upload HTTP/1.1[0m" 405 -
+2025-03-09 17:43:47,534 - INFO - 127.0.0.1 - - [09/Mar/2025 17:43:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-09 17:44:05,390 - INFO - 127.0.0.1 - - [09/Mar/2025 17:44:05] "GET /status?tracking_number=12345678 HTTP/1.1" 200 -
+2025-03-09 17:44:22,749 - INFO - 127.0.0.1 - - [09/Mar/2025 17:44:22] "[31m[1mGET /anonymize HTTP/1.1[0m" 405 -
+2025-03-09 17:44:32,953 - INFO - 127.0.0.1 - - [09/Mar/2025 17:44:32] "[31m[1mGET /review HTTP/1.1[0m" 405 -
+2025-03-09 17:47:52,914 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.31:5000
+2025-03-09 17:47:52,915 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-09 17:47:52,916 - INFO -  * Restarting with stat
+2025-03-09 17:48:01,410 - WARNING -  * Debugger is active!
+2025-03-09 17:48:01,412 - INFO -  * Debugger PIN: 873-261-094
+2025-03-09 17:48:01,424 - INFO - 127.0.0.1 - - [09/Mar/2025 17:48:01] "[33mGET / HTTP/1.1[0m" 404 -
+2025-03-09 17:48:05,900 - INFO - 127.0.0.1 - - [09/Mar/2025 17:48:05] "[33mGET / HTTP/1.1[0m" 404 -
+2025-03-09 17:49:21,618 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-09 17:49:21,618 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-09 17:49:47,908 - INFO - 127.0.0.1 - - [09/Mar/2025 17:49:47] "[33mGET / HTTP/1.1[0m" 404 -
+2025-03-09 17:49:49,920 - INFO - 127.0.0.1 - - [09/Mar/2025 17:49:49] "[33mGET / HTTP/1.1[0m" 404 -
+2025-03-09 17:55:25,306 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.31:5000
+2025-03-09 17:55:25,306 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-09 17:55:25,308 - INFO -  * Restarting with stat
+2025-03-09 17:55:33,813 - WARNING -  * Debugger is active!
+2025-03-09 17:55:33,816 - INFO -  * Debugger PIN: 941-207-197
+2025-03-09 17:55:43,236 - INFO - 127.0.0.1 - - [09/Mar/2025 17:55:43] "[33mGET / HTTP/1.1[0m" 404 -
+2025-03-09 17:55:43,599 - INFO - 127.0.0.1 - - [09/Mar/2025 17:55:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-09 17:55:56,355 - INFO - 127.0.0.1 - - [09/Mar/2025 17:55:56] "[31m[1mGET /anonymize HTTP/1.1[0m" 405 -
+2025-03-09 17:57:32,804 - INFO - 127.0.0.1 - - [09/Mar/2025 17:57:32] "[33mGET / HTTP/1.1[0m" 404 -
+2025-03-09 17:57:32,855 - INFO - 127.0.0.1 - - [09/Mar/2025 17:57:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-09 17:59:26,512 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.31:5000
+2025-03-09 17:59:26,513 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-09 17:59:26,514 - INFO -  * Restarting with stat
+2025-03-09 17:59:53,613 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.31:5000
+2025-03-09 17:59:53,613 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-09 17:59:53,614 - INFO -  * Restarting with stat
+2025-03-09 18:00:02,123 - WARNING -  * Debugger is active!
+2025-03-09 18:00:02,125 - INFO -  * Debugger PIN: 941-207-197
+2025-03-09 18:07:29,390 - INFO -  * Detected change in 'C:\\Users\\fatih.FATIHBAL\\OneDrive\\Masa�st�\\Yazlab_2.1\\db.py', reloading
+2025-03-09 18:07:29,426 - INFO -  * Restarting with stat
+2025-03-09 18:07:37,949 - WARNING -  * Debugger is active!
+2025-03-09 18:07:37,951 - INFO -  * Debugger PIN: 941-207-197
+2025-03-09 18:08:29,195 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.31:5000
+2025-03-09 18:08:29,195 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-09 18:08:29,196 - INFO -  * Restarting with stat
+2025-03-09 18:08:37,662 - WARNING -  * Debugger is active!
+2025-03-09 18:08:37,664 - INFO -  * Debugger PIN: 941-207-197
+2025-03-09 18:08:43,807 - INFO - 127.0.0.1 - - [09/Mar/2025 18:08:43] "[33mGET / HTTP/1.1[0m" 404 -
+2025-03-09 18:16:41,619 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.31:5000
+2025-03-09 18:16:41,620 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-09 18:16:41,621 - INFO -  * Restarting with stat
+2025-03-09 18:16:50,104 - WARNING -  * Debugger is active!
+2025-03-09 18:16:50,106 - INFO -  * Debugger PIN: 941-207-197
+2025-03-09 18:17:45,711 - INFO - 127.0.0.1 - - [09/Mar/2025 18:17:45] "[31m[1mGET /review HTTP/1.1[0m" 405 -
+2025-03-09 18:18:01,118 - INFO - 127.0.0.1 - - [09/Mar/2025 18:18:01] "[31m[1mGET /status HTTP/1.1[0m" 400 -
+2025-03-09 18:20:27,689 - INFO -  * Detected change in 'C:\\Users\\fatih.FATIHBAL\\OneDrive\\Masa�st�\\Yazlab_2.1\\app.py', reloading
+2025-03-09 18:20:27,728 - INFO -  * Restarting with stat
+2025-03-09 18:20:54,618 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.31:5000
+2025-03-09 18:20:54,619 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-09 18:20:54,620 - INFO -  * Restarting with stat
+2025-03-09 18:21:03,165 - WARNING -  * Debugger is active!
+2025-03-09 18:21:03,167 - INFO -  * Debugger PIN: 941-207-197
+2025-03-09 18:21:10,281 - INFO - 127.0.0.1 - - [09/Mar/2025 18:21:10] "GET / HTTP/1.1" 200 -
+2025-03-09 18:21:10,330 - INFO - 127.0.0.1 - - [09/Mar/2025 18:21:10] "GET /static/style.css HTTP/1.1" 200 -
+2025-03-09 18:21:11,900 - INFO - 127.0.0.1 - - [09/Mar/2025 18:21:11] "[31m[1mGET /upload HTTP/1.1[0m" 405 -
+2025-03-09 18:21:15,414 - INFO - 127.0.0.1 - - [09/Mar/2025 18:21:15] "[31m[1mGET /status HTTP/1.1[0m" 400 -
+2025-03-09 18:21:18,046 - INFO - 127.0.0.1 - - [09/Mar/2025 18:21:18] "[31m[1mGET /anonymize HTTP/1.1[0m" 405 -
+2025-03-09 18:21:20,316 - INFO - 127.0.0.1 - - [09/Mar/2025 18:21:20] "[31m[1mGET /review HTTP/1.1[0m" 405 -
+2025-03-09 18:33:45,268 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.31:5000
+2025-03-09 18:33:45,269 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-09 18:33:45,271 - INFO -  * Restarting with stat
+2025-03-09 18:33:53,780 - WARNING -  * Debugger is active!
+2025-03-09 18:33:53,783 - INFO -  * Debugger PIN: 941-207-197
+2025-03-09 18:33:53,796 - INFO - 127.0.0.1 - - [09/Mar/2025 18:33:53] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+2025-03-09 18:36:07,327 - INFO - Aksiyon: Makale y�kleme hatas�: 'ascii' codec can't encode character '\u015f' in position 21: ordinal not in range(128), Kullan�c� Rol�: None
+2025-03-09 18:36:07,328 - INFO - 127.0.0.1 - - [09/Mar/2025 18:36:07] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-09 18:39:44,338 - INFO - Aksiyon: Makale y�kleme hatas�: 'ascii' codec can't encode character '\u015f' in position 21: ordinal not in range(128), Kullan�c� Rol�: None
+2025-03-09 18:39:44,339 - INFO - 127.0.0.1 - - [09/Mar/2025 18:39:44] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-09 18:42:39,892 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.31:5000
+2025-03-09 18:42:39,892 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-09 18:42:39,893 - INFO -  * Restarting with stat
+2025-03-09 18:42:48,404 - WARNING -  * Debugger is active!
+2025-03-09 18:42:48,407 - INFO -  * Debugger PIN: 941-207-197
+2025-03-09 18:43:00,899 - INFO - Aksiyon: Makale y�kleme hatas�: 'ascii' codec can't encode character '\u015f' in position 21: ordinal not in range(128), Kullan�c� Rol�: None
+2025-03-09 18:43:00,900 - INFO - 127.0.0.1 - - [09/Mar/2025 18:43:00] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-09 18:43:20,135 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.31:5000
+2025-03-09 18:43:20,135 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-09 18:43:20,136 - INFO -  * Restarting with stat
+2025-03-09 18:43:28,632 - WARNING -  * Debugger is active!
+2025-03-09 18:43:28,635 - INFO -  * Debugger PIN: 941-207-197
+2025-03-09 18:43:37,193 - INFO - Aksiyon: Makale y�kleme hatas�: 'ascii' codec can't encode character '\u015f' in position 21: ordinal not in range(128), Kullan�c� Rol�: None
+2025-03-09 18:43:37,194 - INFO - 127.0.0.1 - - [09/Mar/2025 18:43:37] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-09 18:44:08,855 - INFO -  * Detected change in 'C:\\Users\\fatih.FATIHBAL\\OneDrive\\Masa�st�\\Yazlab_2.1\\app.py', reloading
+2025-03-09 18:44:08,889 - INFO -  * Restarting with stat
+2025-03-09 18:44:34,548 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.31:5000
+2025-03-09 18:44:34,549 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-09 18:44:34,550 - INFO -  * Restarting with stat
+2025-03-09 18:44:43,044 - WARNING -  * Debugger is active!
+2025-03-09 18:44:43,046 - INFO -  * Debugger PIN: 941-207-197
+2025-03-09 18:45:08,624 - INFO - Aksiyon: Makale y�kleme hatas�: 'ascii' codec can't encode character '\u015f' in position 21: ordinal not in range(128), Kullan�c� Rol�: None
+2025-03-09 18:45:08,625 - INFO - 127.0.0.1 - - [09/Mar/2025 18:45:08] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-09 18:47:55,569 - INFO -  * Detected change in 'C:\\Users\\fatih.FATIHBAL\\OneDrive\\Masa�st�\\Yazlab_2.1\\app.py', reloading
+2025-03-09 18:47:55,606 - INFO -  * Restarting with stat
+2025-03-09 18:48:04,168 - WARNING -  * Debugger is active!
+2025-03-09 18:48:04,170 - INFO -  * Debugger PIN: 941-207-197
+2025-03-09 18:48:42,269 - INFO -  * Detected change in 'C:\\Users\\fatih.FATIHBAL\\OneDrive\\Masa�st�\\Yazlab_2.1\\app.py', reloading
+2025-03-09 18:48:42,300 - INFO -  * Restarting with stat
+2025-03-09 18:48:50,871 - WARNING -  * Debugger is active!
+2025-03-09 18:48:50,873 - INFO -  * Debugger PIN: 941-207-197
+2025-03-09 18:49:06,921 - INFO -  * Detected change in 'C:\\Users\\fatih.FATIHBAL\\OneDrive\\Masa�st�\\Yazlab_2.1\\app.py', reloading
+2025-03-09 18:49:06,960 - INFO -  * Restarting with stat
+2025-03-09 18:49:25,726 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.31:5000
+2025-03-09 18:49:25,726 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-09 18:49:25,727 - INFO -  * Restarting with stat
+2025-03-09 18:49:34,235 - WARNING -  * Debugger is active!
+2025-03-09 18:49:34,237 - INFO -  * Debugger PIN: 941-207-197
+2025-03-09 18:49:42,849 - INFO - Aksiyon: Makale y�kleme hatas�: 'ascii' codec can't encode character '\u015f' in position 21: ordinal not in range(128), Kullan�c� Rol�: None
+2025-03-09 18:49:42,850 - INFO - 127.0.0.1 - - [09/Mar/2025 18:49:42] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-09 18:50:47,588 - INFO -  * Detected change in 'C:\\Users\\fatih.FATIHBAL\\OneDrive\\Masa�st�\\Yazlab_2.1\\config.py', reloading
+2025-03-09 18:50:47,626 - INFO -  * Restarting with stat
+2025-03-09 18:51:23,260 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.31:5000
+2025-03-09 18:51:23,261 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-09 18:51:23,262 - INFO -  * Restarting with stat
+2025-03-09 18:51:35,900 - WARNING -  * Debugger is active!
+2025-03-09 18:51:35,903 - INFO -  * Debugger PIN: 941-207-197
+2025-03-09 18:51:45,143 - INFO - Aksiyon: Makale y�kleme hatas�: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 4fb4d7f45d1cf-5e5c733fca8sm5365308a12.4 - gsmtp'), Kullan�c� Rol�: None
+2025-03-09 18:51:45,144 - INFO - 127.0.0.1 - - [09/Mar/2025 18:51:45] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-03-09 19:00:27,048 - INFO -  * Detected change in 'C:\\Users\\fatih.FATIHBAL\\OneDrive\\Masa�st�\\Yazlab_2.1\\email_service.py', reloading
+2025-03-09 19:00:27,084 - INFO -  * Restarting with stat
+2025-03-09 19:00:35,653 - WARNING -  * Debugger is active!
+2025-03-09 19:00:35,656 - INFO -  * Debugger PIN: 941-207-197
+2025-03-09 19:00:49,673 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.31:5000
+2025-03-09 19:00:49,674 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-09 19:00:49,675 - INFO -  * Restarting with stat
+2025-03-09 19:00:58,195 - WARNING -  * Debugger is active!
+2025-03-09 19:00:58,197 - INFO -  * Debugger PIN: 941-207-197
+2025-03-09 19:01:11,334 - INFO - Aksiyon: Makale y�klendi: 64bcc7ba, E-posta: test@example.com, Kullan�c� Rol�: None
+2025-03-09 19:01:11,335 - INFO - 127.0.0.1 - - [09/Mar/2025 19:01:11] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2025-03-09 19:01:42,378 - INFO -  * Detected change in 'C:\\Users\\fatih.FATIHBAL\\OneDrive\\Masa�st�\\Yazlab_2.1\\email_service.py', reloading
+2025-03-09 19:01:42,413 - INFO -  * Restarting with stat
+2025-03-11 12:46:03,352 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.3.5.251:5000
+2025-03-11 12:46:03,352 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-11 12:46:03,354 - INFO -  * Restarting with stat
+2025-03-11 12:46:11,976 - WARNING -  * Debugger is active!
+2025-03-11 12:46:11,979 - INFO -  * Debugger PIN: 941-207-197
+2025-03-11 12:46:12,002 - INFO - 127.0.0.1 - - [11/Mar/2025 12:46:12] "GET / HTTP/1.1" 200 -
+2025-03-11 12:46:12,061 - INFO - 127.0.0.1 - - [11/Mar/2025 12:46:12] "GET /static/style.css HTTP/1.1" 200 -
+2025-03-11 12:46:12,391 - INFO - 127.0.0.1 - - [11/Mar/2025 12:46:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-11 12:46:16,282 - INFO - 127.0.0.1 - - [11/Mar/2025 12:46:16] "[31m[1mGET /upload HTTP/1.1[0m" 405 -
+2025-03-11 12:46:22,304 - INFO - 127.0.0.1 - - [11/Mar/2025 12:46:22] "[31m[1mGET /status HTTP/1.1[0m" 400 -
+2025-03-11 12:46:25,042 - INFO - 127.0.0.1 - - [11/Mar/2025 12:46:25] "[31m[1mGET /anonymize HTTP/1.1[0m" 405 -
+2025-03-11 12:46:28,042 - INFO - 127.0.0.1 - - [11/Mar/2025 12:46:28] "[31m[1mGET /anonymize HTTP/1.1[0m" 405 -
+2025-03-11 12:46:30,108 - INFO - 127.0.0.1 - - [11/Mar/2025 12:46:30] "[31m[1mGET /review HTTP/1.1[0m" 405 -
+2025-03-11 12:46:45,908 - INFO - 127.0.0.1 - - [11/Mar/2025 12:46:45] "[31m[1mGET /anonymize HTTP/1.1[0m" 405 -
+2025-03-11 12:48:19,448 - INFO -  * Detected change in 'C:\\Users\\fatih.FATIHBAL\\OneDrive\\Masa�st�\\Yazlab_2.1_Guncellenmis\\Yazlab_2.1 - Kopya\\db.py', reloading
+2025-03-11 12:48:19,498 - INFO -  * Restarting with stat
+2025-03-11 12:48:28,398 - WARNING -  * Debugger is active!
+2025-03-11 12:48:28,400 - INFO -  * Debugger PIN: 941-207-197
+2025-03-11 12:51:16,892 - INFO -  * Detected change in 'C:\\Users\\fatih.FATIHBAL\\OneDrive\\Masa�st�\\Yazlab_2.1_Guncellenmis\\Yazlab_2.1 - Kopya\\app.py', reloading
+2025-03-11 12:51:16,925 - INFO -  * Restarting with stat
+2025-03-11 12:51:25,461 - WARNING -  * Debugger is active!
+2025-03-11 12:51:25,463 - INFO -  * Debugger PIN: 941-207-197
+2025-03-11 12:51:36,505 - INFO -  * Detected change in 'C:\\Users\\fatih.FATIHBAL\\OneDrive\\Masa�st�\\Yazlab_2.1_Guncellenmis\\Yazlab_2.1 - Kopya\\app.py', reloading
+2025-03-11 12:51:36,535 - INFO -  * Restarting with stat
+2025-03-11 12:51:45,069 - WARNING -  * Debugger is active!
+2025-03-11 12:51:45,073 - INFO -  * Debugger PIN: 941-207-197
+2025-03-11 12:51:51,124 - INFO -  * Detected change in 'C:\\Users\\fatih.FATIHBAL\\OneDrive\\Masa�st�\\Yazlab_2.1_Guncellenmis\\Yazlab_2.1 - Kopya\\app.py', reloading
+2025-03-11 12:51:51,164 - INFO -  * Restarting with stat
+2025-03-11 12:51:59,741 - WARNING -  * Debugger is active!
+2025-03-11 12:51:59,743 - INFO -  * Debugger PIN: 941-207-197
+2025-03-11 12:52:20,860 - INFO -  * Detected change in 'C:\\Users\\fatih.FATIHBAL\\OneDrive\\Masa�st�\\Yazlab_2.1_Guncellenmis\\Yazlab_2.1 - Kopya\\app.py', reloading
+2025-03-11 12:52:20,890 - INFO -  * Restarting with stat
+2025-03-11 12:52:52,996 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.3.5.251:5000
+2025-03-11 12:52:52,996 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-11 12:52:52,997 - INFO -  * Restarting with stat
+2025-03-11 12:53:01,485 - WARNING -  * Debugger is active!
+2025-03-11 12:53:01,488 - INFO -  * Debugger PIN: 941-207-197
+2025-03-11 12:53:01,508 - INFO - 127.0.0.1 - - [11/Mar/2025 12:53:01] "GET / HTTP/1.1" 200 -
+2025-03-11 12:53:01,521 - INFO - 127.0.0.1 - - [11/Mar/2025 12:53:01] "GET /anonymize HTTP/1.1" 200 -
+2025-03-11 12:53:01,866 - INFO - 127.0.0.1 - - [11/Mar/2025 12:53:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-11 12:53:03,486 - INFO - 127.0.0.1 - - [11/Mar/2025 12:53:03] "GET /upload HTTP/1.1" 200 -
+2025-03-11 12:53:03,806 - INFO - 127.0.0.1 - - [11/Mar/2025 12:53:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-11 12:53:14,478 - INFO - 127.0.0.1 - - [11/Mar/2025 12:53:14] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2025-03-11 12:53:27,479 - INFO - 127.0.0.1 - - [11/Mar/2025 12:53:27] "GET /upload HTTP/1.1" 200 -
+2025-03-11 12:53:31,999 - INFO - 127.0.0.1 - - [11/Mar/2025 12:53:31] "[31m[1mGET /status HTTP/1.1[0m" 400 -
+2025-03-11 12:53:35,226 - INFO - 127.0.0.1 - - [11/Mar/2025 12:53:35] "GET /anonymize HTTP/1.1" 200 -
+2025-03-11 12:53:35,473 - INFO - 127.0.0.1 - - [11/Mar/2025 12:53:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-11 12:54:45,072 - INFO - 127.0.0.1 - - [11/Mar/2025 12:54:45] "[35m[1mPOST /anonymize HTTP/1.1[0m" 500 -
+2025-03-11 12:54:56,828 - INFO - 127.0.0.1 - - [11/Mar/2025 12:54:56] "GET /review HTTP/1.1" 200 -
+2025-03-11 12:54:57,159 - INFO - 127.0.0.1 - - [11/Mar/2025 12:54:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-11 12:55:02,001 - INFO - 127.0.0.1 - - [11/Mar/2025 12:55:02] "[35m[1mPOST /review HTTP/1.1[0m" 201 -
+2025-03-11 12:55:07,418 - INFO - 127.0.0.1 - - [11/Mar/2025 12:55:07] "GET /review HTTP/1.1" 200 -
+2025-03-11 12:55:09,640 - INFO - 127.0.0.1 - - [11/Mar/2025 12:55:09] "[31m[1mGET /status HTTP/1.1[0m" 400 -
+2025-03-11 13:49:18,246 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.188.163:5000
+2025-03-11 13:49:18,246 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-11 13:49:18,248 - INFO -  * Restarting with stat
+2025-03-11 13:49:26,733 - WARNING -  * Debugger is active!
+2025-03-11 13:49:26,736 - INFO -  * Debugger PIN: 941-207-197
+2025-03-11 13:49:29,097 - INFO - 127.0.0.1 - - [11/Mar/2025 13:49:29] "GET / HTTP/1.1" 200 -
+2025-03-11 13:49:29,386 - INFO - 127.0.0.1 - - [11/Mar/2025 13:49:29] "GET /static/style.css HTTP/1.1" 200 -
+2025-03-11 13:49:29,423 - INFO - 127.0.0.1 - - [11/Mar/2025 13:49:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-11 13:49:38,431 - INFO - 127.0.0.1 - - [11/Mar/2025 13:49:38] "GET /upload HTTP/1.1" 200 -
+2025-03-11 13:49:38,764 - INFO - 127.0.0.1 - - [11/Mar/2025 13:49:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-11 13:49:51,578 - INFO - 127.0.0.1 - - [11/Mar/2025 13:49:51] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2025-03-11 13:49:55,628 - INFO - 127.0.0.1 - - [11/Mar/2025 13:49:55] "GET /upload HTTP/1.1" 200 -
+2025-03-11 13:49:58,488 - INFO - 127.0.0.1 - - [11/Mar/2025 13:49:58] "[31m[1mGET /status HTTP/1.1[0m" 400 -
+2025-03-11 13:50:02,800 - INFO - 127.0.0.1 - - [11/Mar/2025 13:50:02] "GET /anonymize HTTP/1.1" 200 -
+2025-03-11 13:50:03,122 - INFO - 127.0.0.1 - - [11/Mar/2025 13:50:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-11 13:50:09,750 - INFO - 127.0.0.1 - - [11/Mar/2025 13:50:09] "GET /review HTTP/1.1" 200 -
+2025-03-11 13:50:09,993 - INFO - 127.0.0.1 - - [11/Mar/2025 13:50:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-11 13:50:13,948 - INFO - 127.0.0.1 - - [11/Mar/2025 13:50:13] "[35m[1mPOST /anonymize HTTP/1.1[0m" 500 -
+2025-03-11 13:50:29,280 - INFO - 127.0.0.1 - - [11/Mar/2025 13:50:29] "[31m[1mGET /status HTTP/1.1[0m" 400 -
+2025-03-11 13:57:03,770 - INFO -  * Detected change in 'C:\\Users\\fatih.FATIHBAL\\OneDrive\\Masa�st�\\Yazlab_2.1_Guncellenmis\\Yazlab_2.1 - Kopya\\app.py', reloading
+2025-03-11 13:57:03,813 - INFO -  * Restarting with stat
+2025-03-11 13:59:11,980 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.188.163:5000
+2025-03-11 13:59:11,981 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-11 13:59:11,982 - INFO -  * Restarting with stat
+2025-03-11 13:59:20,455 - WARNING -  * Debugger is active!
+2025-03-11 13:59:20,457 - INFO -  * Debugger PIN: 941-207-197
+2025-03-11 13:59:20,485 - INFO - 127.0.0.1 - - [11/Mar/2025 13:59:20] "GET / HTTP/1.1" 200 -
+2025-03-11 13:59:20,548 - INFO - 127.0.0.1 - - [11/Mar/2025 13:59:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-11 13:59:24,012 - INFO - 127.0.0.1 - - [11/Mar/2025 13:59:24] "GET /status_page HTTP/1.1" 200 -
+2025-03-11 13:59:24,262 - INFO - 127.0.0.1 - - [11/Mar/2025 13:59:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-11 13:59:35,852 - INFO - 127.0.0.1 - - [11/Mar/2025 13:59:35] "GET /status?tracking_number=4a5c6af5 HTTP/1.1" 200 -
+2025-03-11 14:06:30,162 - INFO - 127.0.0.1 - - [11/Mar/2025 14:06:30] "GET /upload HTTP/1.1" 200 -
+2025-03-11 14:06:30,411 - INFO - 127.0.0.1 - - [11/Mar/2025 14:06:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-11 14:07:00,196 - INFO - 127.0.0.1 - - [11/Mar/2025 14:07:00] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2025-03-11 14:13:34,009 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.188.163:5000
+2025-03-11 14:13:34,009 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-11 14:13:34,011 - INFO -  * Restarting with stat
+2025-03-11 14:13:42,499 - WARNING -  * Debugger is active!
+2025-03-11 14:13:42,502 - INFO -  * Debugger PIN: 941-207-197
+2025-03-11 14:13:50,107 - INFO - 127.0.0.1 - - [11/Mar/2025 14:13:50] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+2025-03-11 14:13:52,378 - INFO - 127.0.0.1 - - [11/Mar/2025 14:13:52] "GET / HTTP/1.1" 200 -
+2025-03-11 14:13:52,731 - INFO - 127.0.0.1 - - [11/Mar/2025 14:13:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-11 14:13:54,647 - INFO - 127.0.0.1 - - [11/Mar/2025 14:13:54] "GET /upload HTTP/1.1" 200 -
+2025-03-11 14:13:54,965 - INFO - 127.0.0.1 - - [11/Mar/2025 14:13:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-11 14:14:07,093 - INFO - 127.0.0.1 - - [11/Mar/2025 14:14:07] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2025-03-11 14:14:12,977 - INFO - 127.0.0.1 - - [11/Mar/2025 14:14:12] "GET /upload HTTP/1.1" 200 -
+2025-03-11 14:14:13,243 - INFO - 127.0.0.1 - - [11/Mar/2025 14:14:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-11 14:14:17,319 - INFO - 127.0.0.1 - - [11/Mar/2025 14:14:17] "GET /status_page HTTP/1.1" 200 -
+2025-03-11 14:14:17,648 - INFO - 127.0.0.1 - - [11/Mar/2025 14:14:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-11 14:14:28,939 - INFO - 127.0.0.1 - - [11/Mar/2025 14:14:28] "[33mGET /status?tracking_number=123 HTTP/1.1[0m" 404 -
+2025-03-11 14:14:39,642 - INFO - 127.0.0.1 - - [11/Mar/2025 14:14:39] "GET /status?tracking_number=4a5c6af5 HTTP/1.1" 200 -
+2025-03-11 14:14:56,449 - INFO - 127.0.0.1 - - [11/Mar/2025 14:14:56] "GET /upload HTTP/1.1" 200 -
+2025-03-11 14:14:56,696 - INFO - 127.0.0.1 - - [11/Mar/2025 14:14:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-11 14:15:03,589 - INFO - 127.0.0.1 - - [11/Mar/2025 14:15:03] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+2025-03-11 14:15:06,207 - INFO - 127.0.0.1 - - [11/Mar/2025 14:15:06] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+2025-03-11 14:19:21,026 - INFO -  * Detected change in 'C:\\Users\\fatih.FATIHBAL\\OneDrive\\Masa�st�\\Yazlab_2.1_Guncellenmis\\Yazlab_2.1 - Kopya\\db.py', reloading
+2025-03-11 14:19:21,059 - INFO -  * Restarting with stat
+2025-03-11 14:30:40,360 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.188.163:5000
+2025-03-11 14:30:40,360 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-11 14:30:40,362 - INFO -  * Restarting with stat
+2025-03-11 14:30:48,861 - WARNING -  * Debugger is active!
+2025-03-11 14:30:48,864 - INFO -  * Debugger PIN: 941-207-197
+2025-03-11 14:30:48,880 - INFO - 127.0.0.1 - - [11/Mar/2025 14:30:48] "GET / HTTP/1.1" 200 -
+2025-03-11 14:30:48,938 - INFO - 127.0.0.1 - - [11/Mar/2025 14:30:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-11 14:30:51,186 - INFO - 127.0.0.1 - - [11/Mar/2025 14:30:51] "GET /upload HTTP/1.1" 200 -
+2025-03-11 14:30:51,430 - INFO - 127.0.0.1 - - [11/Mar/2025 14:30:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-11 14:30:55,818 - INFO - 127.0.0.1 - - [11/Mar/2025 14:30:55] "GET /status_page HTTP/1.1" 200 -
+2025-03-11 14:30:56,148 - INFO - 127.0.0.1 - - [11/Mar/2025 14:30:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-11 14:31:06,068 - INFO - 127.0.0.1 - - [11/Mar/2025 14:31:06] "GET /status?tracking_number=4a5c6af5 HTTP/1.1" 200 -
+2025-03-11 14:31:11,101 - INFO - 127.0.0.1 - - [11/Mar/2025 14:31:11] "GET / HTTP/1.1" 200 -
+2025-03-11 14:31:11,367 - INFO - 127.0.0.1 - - [11/Mar/2025 14:31:11] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-11 14:31:12,460 - INFO - 127.0.0.1 - - [11/Mar/2025 14:31:12] "GET /anonymize HTTP/1.1" 200 -
+2025-03-11 14:31:12,782 - INFO - 127.0.0.1 - - [11/Mar/2025 14:31:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-11 14:31:14,380 - INFO - 127.0.0.1 - - [11/Mar/2025 14:31:14] "GET /review HTTP/1.1" 200 -
+2025-03-11 14:31:14,708 - INFO - 127.0.0.1 - - [11/Mar/2025 14:31:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-11 14:31:23,083 - INFO -  * Detected change in 'C:\\Users\\fatih.FATIHBAL\\OneDrive\\Masa�st�\\Yazlab_2.1_Guncellenmis\\Yazlab_2.1 - Kopya\\app.py', reloading
+2025-03-11 14:31:23,119 - INFO -  * Restarting with stat
+2025-03-11 14:31:31,674 - WARNING -  * Debugger is active!
+2025-03-11 14:31:31,676 - INFO -  * Debugger PIN: 941-207-197
+2025-03-11 14:32:45,632 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.188.163:5000
+2025-03-11 14:32:45,632 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-11 14:32:45,634 - INFO -  * Restarting with stat
+2025-03-11 14:32:54,187 - WARNING -  * Debugger is active!
+2025-03-11 14:32:54,189 - INFO -  * Debugger PIN: 941-207-197
+2025-03-11 14:33:37,547 - INFO - 127.0.0.1 - - [11/Mar/2025 14:33:37] "GET / HTTP/1.1" 200 -
+2025-03-11 14:33:37,835 - INFO - 127.0.0.1 - - [11/Mar/2025 14:33:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-11 14:33:38,808 - INFO - 127.0.0.1 - - [11/Mar/2025 14:33:38] "GET /upload HTTP/1.1" 200 -
+2025-03-11 14:33:39,140 - INFO - 127.0.0.1 - - [11/Mar/2025 14:33:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-11 14:33:42,063 - INFO - 127.0.0.1 - - [11/Mar/2025 14:33:42] "GET /status_page HTTP/1.1" 200 -
+2025-03-11 14:33:42,380 - INFO - 127.0.0.1 - - [11/Mar/2025 14:33:42] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-11 14:33:58,784 - INFO - 127.0.0.1 - - [11/Mar/2025 14:33:58] "[31m[1mGET /send_message HTTP/1.1[0m" 405 -
+2025-03-11 14:33:58,833 - INFO - 127.0.0.1 - - [11/Mar/2025 14:33:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-11 14:34:09,146 - INFO - 127.0.0.1 - - [11/Mar/2025 14:34:09] "[33mGET /get_notifications?email=kullanici@example.com HTTP/1.1[0m" 404 -
+2025-03-11 14:34:21,085 - INFO - 127.0.0.1 - - [11/Mar/2025 14:34:21] "[33mGET /get_notifications?email=fatih18bal.pc@gmail.com HTTP/1.1[0m" 404 -
+2025-03-11 14:34:32,043 - INFO - 127.0.0.1 - - [11/Mar/2025 14:34:32] "[31m[1mGET /upload_revision HTTP/1.1[0m" 405 -
+2025-03-11 14:37:47,110 - INFO -  * Detected change in 'C:\\Users\\fatih.FATIHBAL\\OneDrive\\Masa�st�\\Yazlab_2.1_Guncellenmis\\Yazlab_2.1 - Kopya\\app.py', reloading
+2025-03-11 14:37:47,143 - INFO -  * Restarting with stat
+2025-03-11 14:37:55,656 - WARNING -  * Debugger is active!
+2025-03-11 14:37:55,658 - INFO -  * Debugger PIN: 941-207-197
+2025-03-11 14:38:23,735 - INFO -  * Detected change in 'C:\\Users\\fatih.FATIHBAL\\OneDrive\\Masa�st�\\Yazlab_2.1_Guncellenmis\\Yazlab_2.1 - Kopya\\app.py', reloading
+2025-03-11 14:38:23,765 - INFO -  * Restarting with stat
+2025-03-11 14:38:32,339 - WARNING -  * Debugger is active!
+2025-03-11 14:38:32,341 - INFO -  * Debugger PIN: 941-207-197
+2025-03-11 14:38:44,097 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.188.163:5000
+2025-03-11 14:38:44,097 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-11 14:38:44,098 - INFO -  * Restarting with stat
+2025-03-11 14:38:52,586 - WARNING -  * Debugger is active!
+2025-03-11 14:38:52,588 - INFO -  * Debugger PIN: 941-207-197
+2025-03-11 14:38:52,604 - INFO - 127.0.0.1 - - [11/Mar/2025 14:38:52] "GET / HTTP/1.1" 200 -
+2025-03-11 14:38:52,662 - INFO - 127.0.0.1 - - [11/Mar/2025 14:38:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-11 14:38:54,272 - INFO - 127.0.0.1 - - [11/Mar/2025 14:38:54] "GET /upload HTTP/1.1" 200 -
+2025-03-11 14:38:54,498 - INFO - 127.0.0.1 - - [11/Mar/2025 14:38:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-11 14:39:37,128 - INFO - 127.0.0.1 - - [11/Mar/2025 14:39:37] "POST /upload HTTP/1.1" 200 -
+2025-03-11 14:44:23,599 - INFO -  * Detected change in 'C:\\Users\\fatih.FATIHBAL\\OneDrive\\Masa�st�\\Yazlab_2.1_Guncellenmis\\Yazlab_2.1 - Kopya\\app.py', reloading
+2025-03-11 14:44:23,645 - INFO -  * Restarting with stat
+2025-03-11 14:44:32,207 - WARNING -  * Debugger is active!
+2025-03-11 14:44:32,210 - INFO -  * Debugger PIN: 941-207-197
+2025-03-11 14:44:54,277 - INFO -  * Detected change in 'C:\\Users\\fatih.FATIHBAL\\OneDrive\\Masa�st�\\Yazlab_2.1_Guncellenmis\\Yazlab_2.1 - Kopya\\app.py', reloading
+2025-03-11 14:44:54,313 - INFO -  * Restarting with stat
+2025-03-11 14:45:02,941 - WARNING -  * Debugger is active!
+2025-03-11 14:45:02,943 - INFO -  * Debugger PIN: 941-207-197
+2025-03-11 14:45:12,979 - INFO -  * Detected change in 'C:\\Users\\fatih.FATIHBAL\\OneDrive\\Masa�st�\\Yazlab_2.1_Guncellenmis\\Yazlab_2.1 - Kopya\\log_service.py', reloading
+2025-03-11 14:45:13,015 - INFO -  * Restarting with stat
+2025-03-11 17:18:24,790 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://30.60.106.43:5000
+2025-03-11 17:18:24,791 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-11 17:18:24,792 - INFO -  * Restarting with stat
+2025-03-11 17:18:33,335 - WARNING -  * Debugger is active!
+2025-03-11 17:18:33,337 - INFO -  * Debugger PIN: 941-207-197
+2025-03-11 17:18:33,547 - INFO - 127.0.0.1 - - [11/Mar/2025 17:18:33] "GET / HTTP/1.1" 200 -
+2025-03-11 17:18:33,825 - INFO - 127.0.0.1 - - [11/Mar/2025 17:18:33] "GET /static/style.css HTTP/1.1" 200 -
+2025-03-11 17:18:35,476 - INFO - 127.0.0.1 - - [11/Mar/2025 17:18:35] "[33mGET /message HTTP/1.1[0m" 404 -
+2025-03-11 17:18:40,498 - INFO - 127.0.0.1 - - [11/Mar/2025 17:18:40] "[35m[1mGET /notifications HTTP/1.1[0m" 500 -
+2025-03-11 17:18:40,772 - INFO - 127.0.0.1 - - [11/Mar/2025 17:18:40] "GET /notifications?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-03-11 17:18:40,853 - INFO - 127.0.0.1 - - [11/Mar/2025 17:18:40] "GET /notifications?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-03-11 17:18:40,882 - INFO - 127.0.0.1 - - [11/Mar/2025 17:18:40] "GET /notifications?__debugger__=yes&cmd=resource&f=console.png&s=5FWIGDf5JPtUNQQpCPdV HTTP/1.1" 200 -
+2025-03-11 17:18:41,216 - INFO - 127.0.0.1 - - [11/Mar/2025 17:18:41] "GET /notifications?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-03-11 17:18:46,383 - INFO - 127.0.0.1 - - [11/Mar/2025 17:18:46] "GET /upload HTTP/1.1" 200 -
+2025-03-11 17:18:46,712 - INFO - 127.0.0.1 - - [11/Mar/2025 17:18:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-11 17:19:55,546 - INFO -  * Detected change in 'C:\\Users\\fatih.FATIHBAL\\OneDrive\\Masa�st�\\Yazlab_2.1_Guncellenmis\\Yazlab_2.1 - Kopya\\app.py', reloading
+2025-03-11 17:19:55,584 - INFO -  * Restarting with stat
+2025-03-11 17:20:22,653 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://30.60.106.43:5000
+2025-03-11 17:20:22,654 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-11 17:20:22,655 - INFO -  * Restarting with stat
+2025-03-11 17:20:31,195 - WARNING -  * Debugger is active!
+2025-03-11 17:20:31,197 - INFO -  * Debugger PIN: 941-207-197
+2025-03-11 17:20:31,213 - INFO - 127.0.0.1 - - [11/Mar/2025 17:20:31] "GET / HTTP/1.1" 200 -
+2025-03-11 17:20:31,273 - INFO - 127.0.0.1 - - [11/Mar/2025 17:20:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-11 17:20:32,430 - INFO - 127.0.0.1 - - [11/Mar/2025 17:20:32] "[33mGET /message HTTP/1.1[0m" 404 -
+2025-03-11 17:20:36,116 - INFO - 127.0.0.1 - - [11/Mar/2025 17:20:36] "GET /notifications HTTP/1.1" 200 -
+2025-03-11 17:20:36,448 - INFO - 127.0.0.1 - - [11/Mar/2025 17:20:36] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-11 17:20:39,432 - INFO - 127.0.0.1 - - [11/Mar/2025 17:20:39] "GET /notifications?email=fatih18bal.pc@gmail.com HTTP/1.1" 200 -
+2025-03-11 17:20:39,771 - INFO - 127.0.0.1 - - [11/Mar/2025 17:20:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-11 17:21:43,474 - INFO -  * Detected change in 'C:\\Users\\fatih.FATIHBAL\\OneDrive\\Masa�st�\\Yazlab_2.1_Guncellenmis\\Yazlab_2.1 - Kopya\\app.py', reloading
+2025-03-11 17:21:43,506 - INFO -  * Restarting with stat
+2025-03-11 17:22:02,863 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://30.60.106.43:5000
+2025-03-11 17:22:02,863 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-11 17:22:02,864 - INFO -  * Restarting with stat
+2025-03-11 17:22:11,384 - WARNING -  * Debugger is active!
+2025-03-11 17:22:11,387 - INFO -  * Debugger PIN: 941-207-197
+2025-03-11 17:22:12,780 - INFO - 127.0.0.1 - - [11/Mar/2025 17:22:12] "GET /notifications HTTP/1.1" 200 -
+2025-03-11 17:22:13,074 - INFO - 127.0.0.1 - - [11/Mar/2025 17:22:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-11 17:22:15,760 - INFO - 127.0.0.1 - - [11/Mar/2025 17:22:15] "[33mGET /message HTTP/1.1[0m" 404 -
+2025-03-11 17:22:18,226 - INFO - 127.0.0.1 - - [11/Mar/2025 17:22:18] "GET /notifications HTTP/1.1" 200 -
+2025-03-11 17:22:18,491 - INFO - 127.0.0.1 - - [11/Mar/2025 17:22:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-11 17:24:38,897 - INFO -  * Detected change in 'C:\\Users\\fatih.FATIHBAL\\OneDrive\\Masa�st�\\Yazlab_2.1_Guncellenmis\\Yazlab_2.1 - Kopya\\app.py', reloading
+2025-03-11 17:24:38,932 - INFO -  * Restarting with stat
+2025-03-11 17:24:47,471 - WARNING -  * Debugger is active!
+2025-03-11 17:24:47,474 - INFO -  * Debugger PIN: 941-207-197
+2025-03-11 17:25:09,791 - INFO - 127.0.0.1 - - [11/Mar/2025 17:25:09] "GET / HTTP/1.1" 200 -
+2025-03-11 17:25:10,080 - INFO - 127.0.0.1 - - [11/Mar/2025 17:25:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-11 17:25:11,385 - INFO - 127.0.0.1 - - [11/Mar/2025 17:25:11] "GET /message HTTP/1.1" 200 -
+2025-03-11 17:25:11,714 - INFO - 127.0.0.1 - - [11/Mar/2025 17:25:11] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-11 17:25:52,557 - INFO - 127.0.0.1 - - [11/Mar/2025 17:25:52] "[35m[1mPOST /send_message HTTP/1.1[0m" 201 -
+2025-03-11 17:30:17,706 - INFO - 127.0.0.1 - - [11/Mar/2025 17:30:17] "GET /message HTTP/1.1" 200 -
+2025-03-11 17:30:17,954 - INFO - 127.0.0.1 - - [11/Mar/2025 17:30:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-11 17:30:25,698 - INFO - 127.0.0.1 - - [11/Mar/2025 17:30:25] "GET /notifications HTTP/1.1" 200 -
+2025-03-11 17:30:26,022 - INFO - 127.0.0.1 - - [11/Mar/2025 17:30:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-11 17:34:34,941 - INFO -  * Detected change in 'C:\\Users\\fatih.FATIHBAL\\OneDrive\\Masa�st�\\Yazlab_2.1_Guncellenmis\\Yazlab_2.1 - Kopya\\app.py', reloading
+2025-03-11 17:34:34,985 - INFO -  * Restarting with stat
+2025-03-11 17:34:43,540 - WARNING -  * Debugger is active!
+2025-03-11 17:34:43,542 - INFO -  * Debugger PIN: 941-207-197
+2025-03-11 17:34:49,802 - INFO - 127.0.0.1 - - [11/Mar/2025 17:34:49] "GET /notifications HTTP/1.1" 200 -
+2025-03-11 17:34:50,079 - INFO - 127.0.0.1 - - [11/Mar/2025 17:34:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-11 17:35:01,687 - INFO - 127.0.0.1 - - [11/Mar/2025 17:35:01] "GET /get_notifications?email=fatih18bal.pc@gmail.com HTTP/1.1" 200 -
+2025-03-11 17:35:02,008 - INFO - 127.0.0.1 - - [11/Mar/2025 17:35:02] "GET /get_notifications?email=fatih18bal.pc@gmail.com HTTP/1.1" 200 -
+2025-03-11 17:35:02,259 - INFO - 127.0.0.1 - - [11/Mar/2025 17:35:02] "GET /get_notifications?email=fatih18bal.pc@gmail.com HTTP/1.1" 200 -
+2025-03-11 17:35:02,317 - INFO - 127.0.0.1 - - [11/Mar/2025 17:35:02] "GET /get_notifications?email=fatih18bal.pc@gmail.com HTTP/1.1" 200 -
+2025-03-11 17:35:02,571 - INFO - 127.0.0.1 - - [11/Mar/2025 17:35:02] "GET /get_notifications?email=fatih18bal.pc@gmail.com HTTP/1.1" 200 -
+2025-03-11 17:35:36,524 - INFO - 127.0.0.1 - - [11/Mar/2025 17:35:36] "GET /get_notifications?email=fatih18bal.pc@gmail.com HTTP/1.1" 200 -
+2025-03-11 17:35:39,928 - INFO - 127.0.0.1 - - [11/Mar/2025 17:35:39] "GET /notifications HTTP/1.1" 200 -
+2025-03-11 17:35:40,175 - INFO - 127.0.0.1 - - [11/Mar/2025 17:35:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-11 17:35:44,322 - INFO - 127.0.0.1 - - [11/Mar/2025 17:35:44] "GET /get_notifications?email=fatihbal1834@gmail.com HTTP/1.1" 200 -
+2025-03-11 17:47:46,170 - INFO - 127.0.0.1 - - [11/Mar/2025 17:47:46] "GET /notifications HTTP/1.1" 200 -
+2025-03-11 17:47:46,489 - INFO - 127.0.0.1 - - [11/Mar/2025 17:47:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-11 17:47:51,590 - INFO - 127.0.0.1 - - [11/Mar/2025 17:47:51] "GET /get_notifications?email=editor@example.com HTTP/1.1" 200 -
+2025-03-11 17:47:56,359 - INFO - 127.0.0.1 - - [11/Mar/2025 17:47:56] "GET /get_notifications?email=editor@example.com HTTP/1.1" 200 -
+2025-03-11 17:47:56,676 - INFO - 127.0.0.1 - - [11/Mar/2025 17:47:56] "GET /get_notifications?email=editor@example.com HTTP/1.1" 200 -
+2025-03-11 17:47:56,923 - INFO - 127.0.0.1 - - [11/Mar/2025 17:47:56] "GET /get_notifications?email=editor@example.com HTTP/1.1" 200 -
+2025-03-11 17:47:56,986 - INFO - 127.0.0.1 - - [11/Mar/2025 17:47:56] "GET /get_notifications?email=editor@example.com HTTP/1.1" 200 -
+2025-03-11 17:47:57,237 - INFO - 127.0.0.1 - - [11/Mar/2025 17:47:57] "GET /get_notifications?email=editor@example.com HTTP/1.1" 200 -
+2025-03-11 17:47:57,300 - INFO - 127.0.0.1 - - [11/Mar/2025 17:47:57] "GET /get_notifications?email=editor@example.com HTTP/1.1" 200 -
+2025-03-11 17:47:57,543 - INFO - 127.0.0.1 - - [11/Mar/2025 17:47:57] "GET /get_notifications?email=editor@example.com HTTP/1.1" 200 -
+2025-03-11 17:48:15,923 - INFO -  * Detected change in 'C:\\Users\\fatih.FATIHBAL\\OneDrive\\Masa�st�\\Yazlab_2.1_Guncellenmis\\Yazlab_2.1 - Kopya\\db.py', reloading
+2025-03-11 17:48:15,956 - INFO -  * Restarting with stat
+2025-03-11 17:48:24,509 - WARNING -  * Debugger is active!
+2025-03-11 17:48:24,511 - INFO -  * Debugger PIN: 941-207-197
+2025-03-11 17:50:54,983 - INFO -  * Detected change in 'C:\\Users\\fatih.FATIHBAL\\OneDrive\\Masa�st�\\Yazlab_2.1_Guncellenmis\\Yazlab_2.1 - Kopya\\app.py', reloading
+2025-03-11 17:50:55,021 - INFO -  * Restarting with stat
+2025-03-11 17:51:03,547 - WARNING -  * Debugger is active!
+2025-03-11 17:51:03,549 - INFO -  * Debugger PIN: 941-207-197
+2025-03-11 17:51:11,362 - INFO - 127.0.0.1 - - [11/Mar/2025 17:51:11] "GET /upload HTTP/1.1" 200 -
+2025-03-11 17:51:11,669 - INFO - 127.0.0.1 - - [11/Mar/2025 17:51:11] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-11 17:51:29,289 - INFO - 127.0.0.1 - - [11/Mar/2025 17:51:29] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2025-03-11 17:51:33,486 - INFO - 127.0.0.1 - - [11/Mar/2025 17:51:33] "GET /upload HTTP/1.1" 200 -
+2025-03-11 17:51:36,637 - INFO - 127.0.0.1 - - [11/Mar/2025 17:51:36] "GET /notifications HTTP/1.1" 200 -
+2025-03-11 17:51:36,961 - INFO - 127.0.0.1 - - [11/Mar/2025 17:51:36] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-11 17:51:39,118 - INFO - 127.0.0.1 - - [11/Mar/2025 17:51:39] "GET /get_notifications?email=fatih18bal.pc@gmail.com HTTP/1.1" 200 -
+2025-03-11 17:51:47,789 - INFO -  * Detected change in 'C:\\Users\\fatih.FATIHBAL\\OneDrive\\Masa�st�\\Yazlab_2.1_Guncellenmis\\Yazlab_2.1 - Kopya\\app.py', reloading
+2025-03-11 17:51:47,824 - INFO -  * Restarting with stat
+2025-03-11 17:51:56,372 - WARNING -  * Debugger is active!
+2025-03-11 17:51:56,374 - INFO -  * Debugger PIN: 941-207-197
+2025-03-11 17:56:47,122 - INFO - 127.0.0.1 - - [11/Mar/2025 17:56:47] "GET /get_notifications?email=fatih18bal.pc@gmail.com HTTP/1.1" 200 -
+2025-03-11 17:56:55,756 - INFO -  * Detected change in 'C:\\Users\\fatih.FATIHBAL\\OneDrive\\Masa�st�\\Yazlab_2.1_Guncellenmis\\Yazlab_2.1 - Kopya\\app.py', reloading
+2025-03-11 17:56:55,791 - INFO -  * Restarting with stat
+2025-03-11 17:57:04,344 - WARNING -  * Debugger is active!
+2025-03-11 17:57:04,346 - INFO -  * Debugger PIN: 941-207-197
+2025-03-11 17:57:33,918 - INFO - 127.0.0.1 - - [11/Mar/2025 17:57:33] "GET /notifications HTTP/1.1" 200 -
+2025-03-11 17:57:39,783 - INFO - 127.0.0.1 - - [11/Mar/2025 17:57:39] "GET /notifications HTTP/1.1" 200 -
+2025-03-11 17:57:40,779 - INFO - 127.0.0.1 - - [11/Mar/2025 17:57:40] "GET /notifications HTTP/1.1" 200 -
+2025-03-11 17:57:41,407 - INFO - 127.0.0.1 - - [11/Mar/2025 17:57:41] "GET /notifications HTTP/1.1" 200 -
+2025-03-11 18:00:21,794 - INFO - 127.0.0.1 - - [11/Mar/2025 18:00:21] "GET /notifications HTTP/1.1" 200 -
+2025-03-11 18:00:22,068 - INFO - 127.0.0.1 - - [11/Mar/2025 18:00:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-11 18:00:33,358 - INFO - 127.0.0.1 - - [11/Mar/2025 18:00:33] "GET /get_notifications?email=fatih18bal.pc@gmail.com HTTP/1.1" 200 -
+2025-03-11 18:01:23,980 - INFO - 127.0.0.1 - - [11/Mar/2025 18:01:23] "GET /upload HTTP/1.1" 200 -
+2025-03-11 18:01:24,243 - INFO - 127.0.0.1 - - [11/Mar/2025 18:01:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-11 18:01:40,361 - INFO - 127.0.0.1 - - [11/Mar/2025 18:01:40] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2025-03-11 18:01:58,762 - INFO - 127.0.0.1 - - [11/Mar/2025 18:01:58] "GET /upload HTTP/1.1" 200 -
+2025-03-11 18:02:02,677 - INFO - 127.0.0.1 - - [11/Mar/2025 18:02:02] "GET /message HTTP/1.1" 200 -
+2025-03-11 18:02:03,002 - INFO - 127.0.0.1 - - [11/Mar/2025 18:02:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-11 18:02:18,999 - INFO - 127.0.0.1 - - [11/Mar/2025 18:02:18] "GET /notifications HTTP/1.1" 200 -
+2025-03-11 18:02:19,320 - INFO - 127.0.0.1 - - [11/Mar/2025 18:02:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-11 18:02:35,139 - INFO - 127.0.0.1 - - [11/Mar/2025 18:02:35] "GET /get_notifications?email=mitakiffarukewiz@gmail.com HTTP/1.1" 200 -
+2025-03-11 18:03:11,508 - INFO - 127.0.0.1 - - [11/Mar/2025 18:03:11] "GET /get_notifications?email=editor@example.com HTTP/1.1" 200 -
+2025-03-11 18:03:17,398 - INFO - 127.0.0.1 - - [11/Mar/2025 18:03:17] "GET /message HTTP/1.1" 200 -
+2025-03-11 18:03:17,727 - INFO - 127.0.0.1 - - [11/Mar/2025 18:03:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-11 18:03:22,206 - INFO - 127.0.0.1 - - [11/Mar/2025 18:03:22] "[35m[1mPOST /send_message HTTP/1.1[0m" 201 -
+2025-03-11 18:03:27,475 - INFO - 127.0.0.1 - - [11/Mar/2025 18:03:27] "GET /notifications HTTP/1.1" 200 -
+2025-03-11 18:03:27,723 - INFO - 127.0.0.1 - - [11/Mar/2025 18:03:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-11 18:03:30,677 - INFO - 127.0.0.1 - - [11/Mar/2025 18:03:30] "GET /get_notifications?email=editor@example.com HTTP/1.1" 200 -
+2025-03-11 18:10:48,779 - INFO -  * Detected change in 'C:\\Users\\fatih.FATIHBAL\\OneDrive\\Masa�st�\\Yazlab_2.1_Guncellenmis\\Yazlab_2.1 - Kopya\\app.py', reloading
+2025-03-11 18:10:48,817 - INFO -  * Restarting with stat
+2025-03-11 18:10:57,341 - WARNING -  * Debugger is active!
+2025-03-11 18:10:57,343 - INFO -  * Debugger PIN: 941-207-197
+2025-03-11 18:11:02,104 - INFO - 127.0.0.1 - - [11/Mar/2025 18:11:02] "GET /notifications HTTP/1.1" 200 -
+2025-03-11 18:11:02,388 - INFO - 127.0.0.1 - - [11/Mar/2025 18:11:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-11 18:11:13,350 - INFO - 127.0.0.1 - - [11/Mar/2025 18:11:13] "[35m[1mGET /get_notifications?email=editor@example.com HTTP/1.1[0m" 500 -
+2025-03-11 18:11:14,024 - INFO - 127.0.0.1 - - [11/Mar/2025 18:11:14] "[35m[1mGET /get_notifications?email=editor@example.com HTTP/1.1[0m" 500 -
+2025-03-11 18:11:24,681 - INFO - 127.0.0.1 - - [11/Mar/2025 18:11:24] "[35m[1mGET /get_notifications?email=fatih18bal.pc@gmail.com HTTP/1.1[0m" 500 -
+2025-03-11 18:15:11,754 - INFO -  * Detected change in 'C:\\Users\\fatih.FATIHBAL\\OneDrive\\Masa�st�\\Yazlab_2.1_Guncellenmis\\Yazlab_2.1 - Kopya\\app.py', reloading
+2025-03-11 18:15:11,814 - INFO -  * Restarting with stat
+2025-03-11 18:15:20,395 - WARNING -  * Debugger is active!
+2025-03-11 18:15:20,398 - INFO -  * Debugger PIN: 941-207-197
+2025-03-11 18:15:20,414 - INFO - 127.0.0.1 - - [11/Mar/2025 18:15:20] "GET /notifications HTTP/1.1" 200 -
+2025-03-11 18:15:20,415 - INFO - 127.0.0.1 - - [11/Mar/2025 18:15:20] "GET / HTTP/1.1" 200 -
+2025-03-11 18:15:20,778 - INFO - 127.0.0.1 - - [11/Mar/2025 18:15:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-11 18:15:21,895 - INFO - 127.0.0.1 - - [11/Mar/2025 18:15:21] "GET /notifications HTTP/1.1" 200 -
+2025-03-11 18:15:22,219 - INFO - 127.0.0.1 - - [11/Mar/2025 18:15:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-11 18:15:32,464 - INFO - 127.0.0.1 - - [11/Mar/2025 18:15:32] "GET /get_notifications?email=editor@example.com HTTP/1.1" 200 -
+2025-03-11 18:15:32,785 - INFO - 127.0.0.1 - - [11/Mar/2025 18:15:32] "GET /get_notifications?email=editor@example.com HTTP/1.1" 200 -
+2025-03-11 18:15:41,771 - INFO - 127.0.0.1 - - [11/Mar/2025 18:15:41] "GET /get_notifications?email=fatih18bal.pc@gmail.com HTTP/1.1" 200 -
+2025-03-11 18:15:42,240 - INFO - 127.0.0.1 - - [11/Mar/2025 18:15:42] "GET /get_notifications?email=fatih18bal.pc@gmail.com HTTP/1.1" 200 -
+2025-03-11 18:15:52,052 - INFO - 127.0.0.1 - - [11/Mar/2025 18:15:52] "GET /get_notifications?email=editor@example.com HTTP/1.1" 200 -
+2025-03-11 18:16:34,721 - INFO - 127.0.0.1 - - [11/Mar/2025 18:16:34] "GET /get_notifications?email=fatih18bal.pc@gmail.com HTTP/1.1" 200 -
+2025-03-11 18:16:42,538 - INFO - 127.0.0.1 - - [11/Mar/2025 18:16:42] "GET /get_notifications?email=editor@example.com HTTP/1.1" 200 -
+2025-03-11 18:19:42,405 - INFO -  * Detected change in 'C:\\Users\\fatih.FATIHBAL\\OneDrive\\Masa�st�\\Yazlab_2.1_Guncellenmis\\Yazlab_2.1 - Kopya\\app.py', reloading
+2025-03-11 18:19:42,441 - INFO -  * Restarting with stat
+2025-03-11 18:19:50,982 - WARNING -  * Debugger is active!
+2025-03-11 18:19:50,985 - INFO -  * Debugger PIN: 941-207-197
+2025-03-11 18:19:51,000 - INFO - 127.0.0.1 - - [11/Mar/2025 18:19:51] "GET /notifications HTTP/1.1" 200 -
+2025-03-11 18:19:51,043 - INFO - 127.0.0.1 - - [11/Mar/2025 18:19:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-11 18:20:02,771 - INFO - 127.0.0.1 - - [11/Mar/2025 18:20:02] "[35m[1mGET /get_notifications?email=editor@example.com HTTP/1.1[0m" 500 -
+2025-03-11 18:20:46,992 - INFO - 127.0.0.1 - - [11/Mar/2025 18:20:46] "[35m[1mGET /get_notifications?email=fatih18bal.pc@gmail.com HTTP/1.1[0m" 500 -
+2025-03-11 18:20:55,491 - INFO - 127.0.0.1 - - [11/Mar/2025 18:20:55] "[35m[1mGET /get_notifications?email=fatih18bal.pc@gmail.com HTTP/1.1[0m" 500 -
+2025-03-11 18:21:14,471 - INFO -  * Detected change in 'C:\\Users\\fatih.FATIHBAL\\OneDrive\\Masa�st�\\Yazlab_2.1_Guncellenmis\\Yazlab_2.1 - Kopya\\app.py', reloading
+2025-03-11 18:21:14,508 - INFO -  * Restarting with stat
+2025-03-11 18:21:23,077 - WARNING -  * Debugger is active!
+2025-03-11 18:21:23,079 - INFO -  * Debugger PIN: 941-207-197
+2025-03-11 18:21:23,098 - INFO - 127.0.0.1 - - [11/Mar/2025 18:21:23] "GET /notifications HTTP/1.1" 200 -
+2025-03-11 18:21:23,149 - INFO - 127.0.0.1 - - [11/Mar/2025 18:21:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-11 18:21:34,903 - INFO - 127.0.0.1 - - [11/Mar/2025 18:21:34] "GET /get_notifications?email=editor@example.com HTTP/1.1" 200 -
+2025-03-11 18:21:43,564 - INFO - 127.0.0.1 - - [11/Mar/2025 18:21:43] "GET /get_notifications?email=fatih18bal.pc@gmail.com HTTP/1.1" 200 -
+2025-03-11 18:28:15,402 - INFO -  * Detected change in 'C:\\Users\\fatih.FATIHBAL\\OneDrive\\Masa�st�\\Yazlab_2.1_Guncellenmis\\Yazlab_2.1 - Kopya\\routes.py', reloading
+2025-03-11 18:28:15,443 - INFO -  * Restarting with stat
+2025-03-11 18:28:23,988 - WARNING -  * Debugger is active!
+2025-03-11 18:28:23,990 - INFO -  * Debugger PIN: 941-207-197
+2025-03-11 18:29:54,215 - INFO -  * Detected change in 'C:\\Users\\fatih.FATIHBAL\\OneDrive\\Masa�st�\\Yazlab_2.1_Guncellenmis\\Yazlab_2.1 - Kopya\\app.py', reloading
+2025-03-11 18:29:54,249 - INFO -  * Restarting with stat
+2025-03-11 18:30:02,796 - WARNING -  * Debugger is active!
+2025-03-11 18:30:02,798 - INFO -  * Debugger PIN: 941-207-197
+2025-03-11 18:30:48,917 - INFO -  * Detected change in 'C:\\Users\\fatih.FATIHBAL\\OneDrive\\Masa�st�\\Yazlab_2.1_Guncellenmis\\Yazlab_2.1 - Kopya\\routes.py', reloading
+2025-03-11 18:30:48,951 - INFO -  * Restarting with stat
+2025-03-11 18:30:57,487 - WARNING -  * Debugger is active!
+2025-03-11 18:30:57,489 - INFO -  * Debugger PIN: 941-207-197
+2025-03-11 18:31:14,539 - INFO -  * Detected change in 'C:\\Users\\fatih.FATIHBAL\\OneDrive\\Masa�st�\\Yazlab_2.1_Guncellenmis\\Yazlab_2.1 - Kopya\\app.py', reloading
+2025-03-11 18:31:14,573 - INFO -  * Restarting with stat
+2025-03-11 18:31:37,458 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://30.60.106.43:5000
+2025-03-11 18:31:37,459 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-11 18:31:37,459 - INFO -  * Restarting with stat
+2025-03-11 18:31:45,992 - WARNING -  * Debugger is active!
+2025-03-11 18:31:45,994 - INFO -  * Debugger PIN: 941-207-197
+2025-03-11 18:31:48,683 - INFO - 127.0.0.1 - - [11/Mar/2025 18:31:48] "[33mGET / HTTP/1.1[0m" 404 -
+2025-03-11 18:32:31,199 - INFO -  * Detected change in 'C:\\Users\\fatih.FATIHBAL\\OneDrive\\Masa�st�\\Yazlab_2.1_Guncellenmis\\Yazlab_2.1 - Kopya\\app.py', reloading
+2025-03-11 18:32:31,239 - INFO -  * Restarting with stat
+2025-03-11 18:32:39,770 - WARNING -  * Debugger is active!
+2025-03-11 18:32:39,773 - INFO -  * Debugger PIN: 941-207-197
+2025-03-11 18:33:02,843 - INFO -  * Detected change in 'C:\\Users\\fatih.FATIHBAL\\OneDrive\\Masa�st�\\Yazlab_2.1_Guncellenmis\\Yazlab_2.1 - Kopya\\app.py', reloading
+2025-03-11 18:33:02,879 - INFO -  * Restarting with stat
+2025-03-11 18:33:24,323 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://30.60.106.43:5000
+2025-03-11 18:33:24,323 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-11 18:33:24,324 - INFO -  * Restarting with stat
+2025-03-11 18:33:32,807 - WARNING -  * Debugger is active!
+2025-03-11 18:33:32,810 - INFO -  * Debugger PIN: 941-207-197
+2025-03-11 18:33:32,824 - INFO - 127.0.0.1 - - [11/Mar/2025 18:33:32] "GET / HTTP/1.1" 200 -
+2025-03-11 18:33:32,825 - INFO - 127.0.0.1 - - [11/Mar/2025 18:33:32] "GET / HTTP/1.1" 200 -
+2025-03-11 18:33:34,099 - INFO - 127.0.0.1 - - [11/Mar/2025 18:33:34] "GET / HTTP/1.1" 200 -
+2025-03-11 18:33:34,403 - INFO - 127.0.0.1 - - [11/Mar/2025 18:33:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-11 18:33:38,768 - INFO - 127.0.0.1 - - [11/Mar/2025 18:33:38] "[33mGET /upload HTTP/1.1[0m" 404 -
+2025-03-11 18:35:00,250 - INFO -  * Detected change in 'C:\\Users\\fatih.FATIHBAL\\OneDrive\\Masa�st�\\Yazlab_2.1_Guncellenmis\\Yazlab_2.1 - Kopya\\routes.py', reloading
+2025-03-11 18:35:00,286 - INFO -  * Restarting with stat
+2025-03-11 18:35:08,778 - WARNING -  * Debugger is active!
+2025-03-11 18:35:08,780 - INFO -  * Debugger PIN: 941-207-197
+2025-03-11 18:35:08,793 - INFO - 127.0.0.1 - - [11/Mar/2025 18:35:08] "GET / HTTP/1.1" 200 -
+2025-03-11 18:35:08,868 - INFO - 127.0.0.1 - - [11/Mar/2025 18:35:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-11 18:35:10,443 - INFO - 127.0.0.1 - - [11/Mar/2025 18:35:10] "[33mGET /upload HTTP/1.1[0m" 404 -
+2025-03-11 18:35:13,295 - INFO - 127.0.0.1 - - [11/Mar/2025 18:35:13] "[33mGET /notifications HTTP/1.1[0m" 404 -
+2025-03-11 18:35:15,255 - INFO - 127.0.0.1 - - [11/Mar/2025 18:35:15] "[33mGET /message HTTP/1.1[0m" 404 -
+2025-03-12 18:13:21,191 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.3.4.68:5000
+2025-03-12 18:13:21,191 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-12 18:13:21,197 - INFO -  * Restarting with stat
+2025-03-12 18:13:29,741 - WARNING -  * Debugger is active!
+2025-03-12 18:13:29,745 - INFO -  * Debugger PIN: 941-207-197
+2025-03-12 18:13:34,252 - INFO - 127.0.0.1 - - [12/Mar/2025 18:13:34] "[33mGET / HTTP/1.1[0m" 404 -
+2025-03-12 18:13:34,507 - INFO - 127.0.0.1 - - [12/Mar/2025 18:13:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-12 18:14:09,628 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.3.4.68:5000
+2025-03-12 18:14:09,629 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-12 18:14:09,630 - INFO -  * Restarting with stat
+2025-03-12 18:14:18,230 - WARNING -  * Debugger is active!
+2025-03-12 18:14:18,233 - INFO -  * Debugger PIN: 941-207-197
+2025-03-12 18:14:18,244 - INFO - 127.0.0.1 - - [12/Mar/2025 18:14:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-12 18:14:20,655 - INFO - 127.0.0.1 - - [12/Mar/2025 18:14:20] "[33mGET / HTTP/1.1[0m" 404 -
+2025-03-12 18:14:23,387 - INFO - 127.0.0.1 - - [12/Mar/2025 18:14:23] "[33mGET / HTTP/1.1[0m" 404 -
+2025-03-12 18:15:01,439 - INFO -  * Detected change in 'C:\\Users\\fatih.FATIHBAL\\OneDrive\\Masa�st�\\Yazlab_2.1_Guncellenmis\\Yazlab_2.1 - Kopya\\routes.py', reloading
+2025-03-12 18:15:01,474 - INFO -  * Restarting with stat
+2025-03-12 18:15:10,081 - WARNING -  * Debugger is active!
+2025-03-12 18:15:10,083 - INFO -  * Debugger PIN: 941-207-197
+2025-03-12 18:15:49,238 - INFO -  * Detected change in 'C:\\Users\\fatih.FATIHBAL\\OneDrive\\Masa�st�\\Yazlab_2.1_Guncellenmis\\Yazlab_2.1 - Kopya\\routes.py', reloading
+2025-03-12 18:15:49,280 - INFO -  * Restarting with stat
+2025-03-12 18:15:57,828 - WARNING -  * Debugger is active!
+2025-03-12 18:15:57,830 - INFO -  * Debugger PIN: 941-207-197
+2025-03-12 18:15:57,871 - INFO - 127.0.0.1 - - [12/Mar/2025 18:15:57] "GET / HTTP/1.1" 200 -
+2025-03-12 18:15:57,935 - INFO - 127.0.0.1 - - [12/Mar/2025 18:15:57] "GET /static/style.css HTTP/1.1" 200 -
+2025-03-12 18:16:10,568 - INFO - 127.0.0.1 - - [12/Mar/2025 18:16:10] "[33mGET /upload HTTP/1.1[0m" 404 -
+2025-03-12 18:16:16,297 - INFO - 127.0.0.1 - - [12/Mar/2025 18:16:16] "[33mGET /status_page HTTP/1.1[0m" 404 -
+2025-03-12 18:16:19,325 - INFO - 127.0.0.1 - - [12/Mar/2025 18:16:19] "[33mGET /anonymize HTTP/1.1[0m" 404 -
+2025-03-12 18:16:21,840 - INFO - 127.0.0.1 - - [12/Mar/2025 18:16:21] "[33mGET /review HTTP/1.1[0m" 404 -
+2025-03-12 18:16:27,673 - INFO - 127.0.0.1 - - [12/Mar/2025 18:16:27] "[33mGET /message HTTP/1.1[0m" 404 -
+2025-03-12 18:16:47,168 - INFO -  * Detected change in 'C:\\Users\\fatih.FATIHBAL\\OneDrive\\Masa�st�\\Yazlab_2.1_Guncellenmis\\Yazlab_2.1 - Kopya\\app.py', reloading
+2025-03-12 18:16:47,204 - INFO -  * Restarting with stat
+2025-03-12 18:16:55,810 - WARNING -  * Debugger is active!
+2025-03-12 18:16:55,812 - INFO -  * Debugger PIN: 941-207-197
+2025-03-12 18:16:56,830 - INFO -  * Detected change in 'C:\\Users\\fatih.FATIHBAL\\OneDrive\\Masa�st�\\Yazlab_2.1_Guncellenmis\\Yazlab_2.1 - Kopya\\routes.py', reloading
+2025-03-12 18:16:56,885 - INFO -  * Restarting with stat
+2025-03-12 18:17:05,417 - WARNING -  * Debugger is active!
+2025-03-12 18:17:05,419 - INFO -  * Debugger PIN: 941-207-197
+2025-03-12 18:17:34,672 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.3.4.68:5000
+2025-03-12 18:17:34,672 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-12 18:17:34,673 - INFO -  * Restarting with stat
+2025-03-12 18:17:43,222 - WARNING -  * Debugger is active!
+2025-03-12 18:17:43,226 - INFO -  * Debugger PIN: 941-207-197
+2025-03-12 18:17:43,241 - INFO - 127.0.0.1 - - [12/Mar/2025 18:17:43] "[33mGET / HTTP/1.1[0m" 404 -
+2025-03-12 18:17:43,262 - INFO - 127.0.0.1 - - [12/Mar/2025 18:17:43] "GET /message HTTP/1.1" 200 -
+2025-03-16 15:16:28,917 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2025-03-16 15:16:28,918 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-16 15:16:28,920 - INFO -  * Restarting with stat
+2025-03-16 15:16:35,418 - WARNING -  * Debugger is active!
+2025-03-16 15:16:35,421 - INFO -  * Debugger PIN: 873-261-094
+2025-03-16 15:16:35,448 - INFO - 127.0.0.1 - - [16/Mar/2025 15:16:35] "GET / HTTP/1.1" 200 -
+2025-03-16 15:16:35,514 - INFO - 127.0.0.1 - - [16/Mar/2025 15:16:35] "GET /static/style.css HTTP/1.1" 200 -
+2025-03-16 15:16:35,841 - INFO - 127.0.0.1 - - [16/Mar/2025 15:16:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-16 15:16:37,414 - INFO - 127.0.0.1 - - [16/Mar/2025 15:16:37] "GET /upload HTTP/1.1" 200 -
+2025-03-16 15:16:37,738 - INFO - 127.0.0.1 - - [16/Mar/2025 15:16:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-16 15:16:41,508 - INFO - 127.0.0.1 - - [16/Mar/2025 15:16:41] "GET /status_page HTTP/1.1" 200 -
+2025-03-16 15:16:41,833 - INFO - 127.0.0.1 - - [16/Mar/2025 15:16:41] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-16 15:17:43,203 - INFO - 127.0.0.1 - - [16/Mar/2025 15:17:43] "GET /status_page HTTP/1.1" 200 -
+2025-03-16 15:17:43,471 - INFO - 127.0.0.1 - - [16/Mar/2025 15:17:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-16 15:17:51,099 - INFO - 127.0.0.1 - - [16/Mar/2025 15:17:51] "GET /status?tracking_number=4a5c6af5 HTTP/1.1" 200 -
+2025-03-16 15:18:02,263 - INFO - 127.0.0.1 - - [16/Mar/2025 15:18:02] "GET /status?tracking_number=ad3f700b HTTP/1.1" 200 -
+2025-03-16 15:18:10,227 - INFO - 127.0.0.1 - - [16/Mar/2025 15:18:10] "GET /message HTTP/1.1" 200 -
+2025-03-16 15:18:10,558 - INFO - 127.0.0.1 - - [16/Mar/2025 15:18:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-16 15:18:19,818 - INFO - 127.0.0.1 - - [16/Mar/2025 15:18:19] "[35m[1mPOST /send_message HTTP/1.1[0m" 201 -
+2025-03-16 15:18:27,360 - INFO - 127.0.0.1 - - [16/Mar/2025 15:18:27] "GET /notifications HTTP/1.1" 200 -
+2025-03-16 15:18:27,582 - INFO - 127.0.0.1 - - [16/Mar/2025 15:18:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-16 15:18:36,954 - INFO - 127.0.0.1 - - [16/Mar/2025 15:18:36] "GET /get_notifications?email=editor@example.com HTTP/1.1" 200 -
+2025-03-16 16:14:05,423 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2025-03-16 16:14:05,423 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-16 16:14:05,425 - INFO -  * Restarting with stat
+2025-03-16 16:14:11,925 - WARNING -  * Debugger is active!
+2025-03-16 16:14:11,927 - INFO -  * Debugger PIN: 873-261-094
+2025-03-16 16:14:11,958 - INFO - 127.0.0.1 - - [16/Mar/2025 16:14:11] "GET / HTTP/1.1" 200 -
+2025-03-16 16:14:12,018 - INFO - 127.0.0.1 - - [16/Mar/2025 16:14:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-16 16:14:14,056 - INFO - 127.0.0.1 - - [16/Mar/2025 16:14:14] "GET /yazar HTTP/1.1" 200 -
+2025-03-16 16:14:14,313 - INFO - 127.0.0.1 - - [16/Mar/2025 16:14:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-16 16:14:15,390 - INFO - 127.0.0.1 - - [16/Mar/2025 16:14:15] "GET /upload HTTP/1.1" 200 -
+2025-03-16 16:14:15,715 - INFO - 127.0.0.1 - - [16/Mar/2025 16:14:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-16 16:14:41,883 - INFO - 127.0.0.1 - - [16/Mar/2025 16:14:41] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2025-03-16 16:14:49,100 - INFO - 127.0.0.1 - - [16/Mar/2025 16:14:49] "GET /upload HTTP/1.1" 200 -
+2025-03-16 16:14:52,591 - INFO - 127.0.0.1 - - [16/Mar/2025 16:14:52] "GET /message HTTP/1.1" 200 -
+2025-03-16 16:14:52,913 - INFO - 127.0.0.1 - - [16/Mar/2025 16:14:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-16 16:14:56,507 - INFO - 127.0.0.1 - - [16/Mar/2025 16:14:56] "[35m[1mPOST /send_message HTTP/1.1[0m" 201 -
+2025-03-16 16:15:04,687 - INFO - 127.0.0.1 - - [16/Mar/2025 16:15:04] "GET /status_page HTTP/1.1" 200 -
+2025-03-16 16:15:04,949 - INFO - 127.0.0.1 - - [16/Mar/2025 16:15:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-16 16:15:06,911 - INFO - 127.0.0.1 - - [16/Mar/2025 16:15:06] "GET /status?tracking_number=4a5c6af5 HTTP/1.1" 200 -
+2025-03-16 16:15:35,234 - INFO - 127.0.0.1 - - [16/Mar/2025 16:15:35] "GET /notifications HTTP/1.1" 200 -
+2025-03-16 16:15:35,497 - INFO - 127.0.0.1 - - [16/Mar/2025 16:15:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-16 16:15:37,907 - INFO - 127.0.0.1 - - [16/Mar/2025 16:15:37] "GET /get_notifications?email=fatih18bal.pc@gmail.com HTTP/1.1" 200 -
+2025-03-16 16:15:43,535 - INFO - 127.0.0.1 - - [16/Mar/2025 16:15:43] "GET /get_notifications?email=editor@example.com HTTP/1.1" 200 -
+2025-03-16 16:15:52,998 - INFO - 127.0.0.1 - - [16/Mar/2025 16:15:52] "GET /get_notifications?email=fatihbal1834@gmail.com HTTP/1.1" 200 -
+2025-03-16 16:15:55,790 - INFO - 127.0.0.1 - - [16/Mar/2025 16:15:55] "GET /get_notifications?email=fatih18bal.pc@gmail.com HTTP/1.1" 200 -
+2025-03-16 16:16:03,212 - INFO - 127.0.0.1 - - [16/Mar/2025 16:16:03] "GET /get_notifications?email=mitakiffarukewiz@gmail.com HTTP/1.1" 200 -
+2025-03-16 16:16:12,329 - INFO - 127.0.0.1 - - [16/Mar/2025 16:16:12] "GET / HTTP/1.1" 200 -
+2025-03-16 16:16:12,592 - INFO - 127.0.0.1 - - [16/Mar/2025 16:16:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-16 16:16:13,587 - INFO - 127.0.0.1 - - [16/Mar/2025 16:16:13] "[35m[1mGET /editor HTTP/1.1[0m" 500 -
+2025-03-16 16:16:13,926 - INFO - 127.0.0.1 - - [16/Mar/2025 16:16:13] "GET /editor?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-03-16 16:16:13,934 - INFO - 127.0.0.1 - - [16/Mar/2025 16:16:13] "GET /editor?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-03-16 16:16:14,176 - INFO - 127.0.0.1 - - [16/Mar/2025 16:16:14] "GET /editor?__debugger__=yes&cmd=resource&f=console.png&s=S3wK1VnOdSDl9TSkkyMx HTTP/1.1" 200 -
+2025-03-16 16:16:14,269 - INFO - 127.0.0.1 - - [16/Mar/2025 16:16:14] "GET /editor?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-03-16 16:16:17,475 - INFO - 127.0.0.1 - - [16/Mar/2025 16:16:17] "GET /hakem HTTP/1.1" 200 -
+2025-03-16 16:16:17,807 - INFO - 127.0.0.1 - - [16/Mar/2025 16:16:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-16 16:16:30,126 - INFO - 127.0.0.1 - - [16/Mar/2025 16:16:30] "[35m[1mGET /editor HTTP/1.1[0m" 500 -
+2025-03-16 16:16:30,452 - INFO - 127.0.0.1 - - [16/Mar/2025 16:16:30] "[36mGET /editor?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-03-16 16:16:30,453 - INFO - 127.0.0.1 - - [16/Mar/2025 16:16:30] "[36mGET /editor?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-03-16 16:16:30,711 - INFO - 127.0.0.1 - - [16/Mar/2025 16:16:30] "[36mGET /editor?__debugger__=yes&cmd=resource&f=console.png&s=S3wK1VnOdSDl9TSkkyMx HTTP/1.1[0m" 304 -
+2025-03-16 16:17:10,613 - INFO -  * Detected change in 'C:\\Users\\fatih.FATIHBAL\\OneDrive\\Masa�st�\\Yazlab_2.1_Guncellenmis\\Yazlab_2.1 - Kopya\\app.py', reloading
+2025-03-16 16:17:10,672 - INFO -  * Restarting with stat
+2025-03-16 16:17:17,323 - WARNING -  * Debugger is active!
+2025-03-16 16:17:17,325 - INFO -  * Debugger PIN: 873-261-094
+2025-03-16 16:17:19,789 - INFO - 127.0.0.1 - - [16/Mar/2025 16:17:19] "GET /editor HTTP/1.1" 200 -
+2025-03-16 16:17:20,081 - INFO - 127.0.0.1 - - [16/Mar/2025 16:17:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-16 16:17:21,832 - INFO - 127.0.0.1 - - [16/Mar/2025 16:17:21] "[33mGET /all_articles HTTP/1.1[0m" 404 -
+2025-03-16 16:17:25,323 - INFO - 127.0.0.1 - - [16/Mar/2025 16:17:25] "GET /anonymize HTTP/1.1" 200 -
+2025-03-16 16:17:25,586 - INFO - 127.0.0.1 - - [16/Mar/2025 16:17:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-16 16:17:34,958 - INFO - 127.0.0.1 - - [16/Mar/2025 16:17:34] "[35m[1mPOST /anonymize HTTP/1.1[0m" 500 -
+2025-03-16 16:17:42,500 - INFO - 127.0.0.1 - - [16/Mar/2025 16:17:42] "[33mGET /assign_reviewers HTTP/1.1[0m" 404 -
+2025-03-16 16:17:48,255 - INFO - 127.0.0.1 - - [16/Mar/2025 16:17:48] "[33mGET /logs HTTP/1.1[0m" 404 -
+2025-03-16 16:17:51,486 - INFO - 127.0.0.1 - - [16/Mar/2025 16:17:51] "[33mGET /logs HTTP/1.1[0m" 404 -
+2025-03-16 16:17:53,620 - INFO - 127.0.0.1 - - [16/Mar/2025 16:17:53] "GET / HTTP/1.1" 200 -
+2025-03-16 16:17:53,940 - INFO - 127.0.0.1 - - [16/Mar/2025 16:17:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-16 16:18:19,955 - INFO - 127.0.0.1 - - [16/Mar/2025 16:18:19] "GET /hakem HTTP/1.1" 200 -
+2025-03-16 16:18:20,283 - INFO - 127.0.0.1 - - [16/Mar/2025 16:18:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-16 16:24:31,440 - INFO -  * Detected change in 'C:\\Users\\fatih.FATIHBAL\\OneDrive\\Masa�st�\\Yazlab_2.1_Guncellenmis\\Yazlab_2.1 - Kopya\\app.py', reloading
+2025-03-16 16:24:31,475 - INFO -  * Restarting with stat
+2025-03-16 16:24:38,009 - WARNING -  * Debugger is active!
+2025-03-16 16:24:38,012 - INFO -  * Debugger PIN: 873-261-094
+2025-03-16 16:24:49,093 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2025-03-16 16:24:49,093 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-16 16:24:49,095 - INFO -  * Restarting with stat
+2025-03-16 16:24:55,681 - WARNING -  * Debugger is active!
+2025-03-16 16:24:55,684 - INFO -  * Debugger PIN: 873-261-094
+2025-03-16 16:24:55,725 - INFO - 127.0.0.1 - - [16/Mar/2025 16:24:55] "GET /hakem HTTP/1.1" 200 -
+2025-03-16 16:24:55,772 - INFO - 127.0.0.1 - - [16/Mar/2025 16:24:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-16 16:25:37,477 - INFO - 127.0.0.1 - - [16/Mar/2025 16:25:37] "[35m[1mPOST /review HTTP/1.1[0m" 500 -
+2025-03-16 16:28:38,648 - INFO -  * Detected change in 'C:\\Users\\fatih.FATIHBAL\\OneDrive\\Masa�st�\\Yazlab_2.1_Guncellenmis\\Yazlab_2.1 - Kopya\\db.py', reloading
+2025-03-16 16:28:38,681 - INFO -  * Restarting with stat
+2025-03-16 16:28:45,212 - WARNING -  * Debugger is active!
+2025-03-16 16:28:45,215 - INFO -  * Debugger PIN: 873-261-094
+2025-03-16 16:28:56,820 - INFO - 127.0.0.1 - - [16/Mar/2025 16:28:56] "GET /hakem HTTP/1.1" 200 -
+2025-03-16 16:28:57,054 - INFO - 127.0.0.1 - - [16/Mar/2025 16:28:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-16 16:29:28,941 - INFO - 127.0.0.1 - - [16/Mar/2025 16:29:28] "[35m[1mPOST /review HTTP/1.1[0m" 500 -
+2025-03-16 16:30:25,672 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2025-03-16 16:30:25,672 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-16 16:30:25,673 - INFO -  * Restarting with stat
+2025-03-16 16:30:32,137 - WARNING -  * Debugger is active!
+2025-03-16 16:30:32,140 - INFO -  * Debugger PIN: 873-261-094
+2025-03-16 16:30:32,154 - INFO - 127.0.0.1 - - [16/Mar/2025 16:30:32] "GET / HTTP/1.1" 200 -
+2025-03-16 16:30:32,199 - INFO - 127.0.0.1 - - [16/Mar/2025 16:30:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-16 16:30:34,710 - INFO - 127.0.0.1 - - [16/Mar/2025 16:30:34] "GET /hakem HTTP/1.1" 200 -
+2025-03-16 16:30:34,968 - INFO - 127.0.0.1 - - [16/Mar/2025 16:30:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-16 16:31:02,917 - INFO - 127.0.0.1 - - [16/Mar/2025 16:31:02] "[35m[1mPOST /review HTTP/1.1[0m" 500 -
+2025-03-16 16:32:41,823 - INFO -  * Detected change in 'C:\\Users\\fatih.FATIHBAL\\OneDrive\\Masa�st�\\Yazlab_2.1_Guncellenmis\\Yazlab_2.1 - Kopya\\db.py', reloading
+2025-03-16 16:32:41,860 - INFO -  * Restarting with stat
+2025-03-16 16:33:20,679 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2025-03-16 16:33:20,680 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-16 16:33:20,681 - INFO -  * Restarting with stat
+2025-03-16 16:33:27,121 - WARNING -  * Debugger is active!
+2025-03-16 16:33:27,124 - INFO -  * Debugger PIN: 873-261-094
+2025-03-16 16:33:27,482 - INFO - 127.0.0.1 - - [16/Mar/2025 16:33:27] "GET / HTTP/1.1" 200 -
+2025-03-16 16:33:27,831 - INFO - 127.0.0.1 - - [16/Mar/2025 16:33:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-16 16:33:29,210 - INFO - 127.0.0.1 - - [16/Mar/2025 16:33:29] "GET /hakem HTTP/1.1" 200 -
+2025-03-16 16:33:29,528 - INFO - 127.0.0.1 - - [16/Mar/2025 16:33:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-16 16:33:33,256 - INFO - 127.0.0.1 - - [16/Mar/2025 16:33:33] "[35m[1mPOST /review HTTP/1.1[0m" 500 -
+2025-03-16 16:33:42,644 - INFO - 127.0.0.1 - - [16/Mar/2025 16:33:42] "[35m[1mPOST /review HTTP/1.1[0m" 500 -
+2025-03-16 16:33:59,609 - INFO - 127.0.0.1 - - [16/Mar/2025 16:33:59] "[35m[1mPOST /review HTTP/1.1[0m" 500 -
+2025-03-17 16:47:12,687 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://30.60.107.42:5000
+2025-03-17 16:47:12,688 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-17 16:47:12,690 - INFO -  * Restarting with stat
+2025-03-17 16:47:21,247 - WARNING -  * Debugger is active!
+2025-03-17 16:47:21,251 - INFO -  * Debugger PIN: 941-207-197
+2025-03-17 16:47:21,282 - INFO - 127.0.0.1 - - [17/Mar/2025 16:47:21] "GET / HTTP/1.1" 200 -
+2025-03-17 16:47:21,434 - INFO - 127.0.0.1 - - [17/Mar/2025 16:47:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-17 16:47:21,618 - INFO - 127.0.0.1 - - [17/Mar/2025 16:47:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-17 16:47:23,561 - INFO - 127.0.0.1 - - [17/Mar/2025 16:47:23] "GET /hakem HTTP/1.1" 200 -
+2025-03-17 16:47:23,880 - INFO - 127.0.0.1 - - [17/Mar/2025 16:47:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-17 16:47:31,335 - INFO - 127.0.0.1 - - [17/Mar/2025 16:47:31] "GET / HTTP/1.1" 200 -
+2025-03-17 16:47:31,662 - INFO - 127.0.0.1 - - [17/Mar/2025 16:47:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-17 16:47:41,020 - INFO - 127.0.0.1 - - [17/Mar/2025 16:47:41] "GET /yazar HTTP/1.1" 200 -
+2025-03-17 16:47:41,337 - INFO - 127.0.0.1 - - [17/Mar/2025 16:47:41] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-17 16:47:57,175 - INFO - 127.0.0.1 - - [17/Mar/2025 16:47:57] "GET /status_page HTTP/1.1" 200 -
+2025-03-17 16:47:57,496 - INFO - 127.0.0.1 - - [17/Mar/2025 16:47:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-17 16:47:58,894 - INFO - 127.0.0.1 - - [17/Mar/2025 16:47:58] "GET /status?tracking_number=4a5c6af5 HTTP/1.1" 200 -
+2025-03-17 16:49:00,306 - INFO - 127.0.0.1 - - [17/Mar/2025 16:49:00] "GET / HTTP/1.1" 200 -
+2025-03-17 16:49:00,572 - INFO - 127.0.0.1 - - [17/Mar/2025 16:49:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-17 16:49:01,535 - INFO - 127.0.0.1 - - [17/Mar/2025 16:49:01] "GET /hakem HTTP/1.1" 200 -
+2025-03-17 16:49:01,868 - INFO - 127.0.0.1 - - [17/Mar/2025 16:49:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-17 16:49:20,257 - INFO - 127.0.0.1 - - [17/Mar/2025 16:49:20] "[35m[1mPOST /review HTTP/1.1[0m" 500 -
+2025-03-17 16:51:40,647 - INFO -  * Detected change in 'C:\\Users\\fatih.FATIHBAL\\OneDrive\\Masa�st�\\Yazlab_2.1_Guncellenmis\\Yazlab_2.1 - Kopya\\db.py', reloading
+2025-03-17 16:51:40,694 - INFO -  * Restarting with stat
+2025-03-17 16:51:49,806 - WARNING -  * Debugger is active!
+2025-03-17 16:51:49,809 - INFO -  * Debugger PIN: 941-207-197
+2025-03-17 16:51:58,033 - INFO - 127.0.0.1 - - [17/Mar/2025 16:51:58] "[35m[1mPOST /review HTTP/1.1[0m" 500 -
+2025-03-17 16:54:13,179 - INFO -  * Detected change in 'C:\\Users\\fatih.FATIHBAL\\OneDrive\\Masa�st�\\Yazlab_2.1_Guncellenmis\\Yazlab_2.1 - Kopya\\app.py', reloading
+2025-03-17 16:54:13,214 - INFO -  * Restarting with stat
+2025-03-17 16:54:21,782 - WARNING -  * Debugger is active!
+2025-03-17 16:54:21,784 - INFO -  * Debugger PIN: 941-207-197
+2025-03-17 16:55:48,351 - INFO -  * Detected change in 'C:\\Users\\fatih.FATIHBAL\\OneDrive\\Masa�st�\\Yazlab_2.1_Guncellenmis\\Yazlab_2.1 - Kopya\\app.py', reloading
+2025-03-17 16:55:48,387 - INFO -  * Restarting with stat
+2025-03-17 16:56:09,992 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://30.60.107.42:5000
+2025-03-17 16:56:09,992 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-17 16:56:09,993 - INFO -  * Restarting with stat
+2025-03-17 16:56:18,431 - WARNING -  * Debugger is active!
+2025-03-17 16:56:18,433 - INFO -  * Debugger PIN: 941-207-197
+2025-03-17 16:56:18,460 - INFO - 127.0.0.1 - - [17/Mar/2025 16:56:18] "GET / HTTP/1.1" 200 -
+2025-03-17 16:56:18,521 - INFO - 127.0.0.1 - - [17/Mar/2025 16:56:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-17 16:56:20,485 - INFO - 127.0.0.1 - - [17/Mar/2025 16:56:20] "GET /hakem HTTP/1.1" 200 -
+2025-03-17 16:56:20,716 - INFO - 127.0.0.1 - - [17/Mar/2025 16:56:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-17 16:57:08,328 - INFO - 127.0.0.1 - - [17/Mar/2025 16:57:08] "[35m[1mPOST /review HTTP/1.1[0m" 201 -
+2025-03-17 16:57:56,367 - INFO - 127.0.0.1 - - [17/Mar/2025 16:57:56] "GET /yazar HTTP/1.1" 200 -
+2025-03-17 16:57:56,604 - INFO - 127.0.0.1 - - [17/Mar/2025 16:57:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-17 16:57:58,210 - INFO - 127.0.0.1 - - [17/Mar/2025 16:57:58] "GET /status_page HTTP/1.1" 200 -
+2025-03-17 16:57:58,538 - INFO - 127.0.0.1 - - [17/Mar/2025 16:57:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-17 16:58:00,444 - INFO - 127.0.0.1 - - [17/Mar/2025 16:58:00] "GET /status?tracking_number=64bcc7ba HTTP/1.1" 200 -
+2025-03-17 16:58:08,277 - INFO - 127.0.0.1 - - [17/Mar/2025 16:58:08] "GET /notifications HTTP/1.1" 200 -
+2025-03-17 16:58:08,493 - INFO - 127.0.0.1 - - [17/Mar/2025 16:58:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-17 16:58:15,396 - INFO - 127.0.0.1 - - [17/Mar/2025 16:58:15] "GET /get_notifications?email=mitakiffarukewiz@gmail.com HTTP/1.1" 200 -
+2025-03-17 16:58:27,830 - INFO - 127.0.0.1 - - [17/Mar/2025 16:58:27] "GET /get_notifications?email=test@example.com HTTP/1.1" 200 -
+2025-03-17 16:58:33,205 - INFO - 127.0.0.1 - - [17/Mar/2025 16:58:33] "GET /get_notifications?email=editor@example.com HTTP/1.1" 200 -
+2025-03-17 16:59:31,419 - INFO - 127.0.0.1 - - [17/Mar/2025 16:59:31] "GET /editor HTTP/1.1" 200 -
+2025-03-17 16:59:31,657 - INFO - 127.0.0.1 - - [17/Mar/2025 16:59:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-17 16:59:32,445 - INFO - 127.0.0.1 - - [17/Mar/2025 16:59:32] "[33mGET /all_articles HTTP/1.1[0m" 404 -
+2025-03-17 16:59:37,094 - INFO - 127.0.0.1 - - [17/Mar/2025 16:59:37] "[33mGET /all_articles HTTP/1.1[0m" 404 -
+2025-03-17 17:02:56,135 - INFO -  * Detected change in 'C:\\Users\\fatih.FATIHBAL\\OneDrive\\Masa�st�\\Yazlab_2.1_Guncellenmis\\Yazlab_2.1 - Kopya\\app.py', reloading
+2025-03-17 17:02:56,175 - INFO -  * Restarting with stat
+2025-03-17 17:03:04,685 - WARNING -  * Debugger is active!
+2025-03-17 17:03:04,688 - INFO -  * Debugger PIN: 941-207-197
+2025-03-17 17:03:13,727 - INFO -  * Detected change in 'C:\\Users\\fatih.FATIHBAL\\OneDrive\\Masa�st�\\Yazlab_2.1_Guncellenmis\\Yazlab_2.1 - Kopya\\app.py', reloading
+2025-03-17 17:03:13,771 - INFO -  * Restarting with stat
+2025-03-17 17:03:22,335 - WARNING -  * Debugger is active!
+2025-03-17 17:03:22,337 - INFO -  * Debugger PIN: 941-207-197
+2025-03-17 17:04:47,483 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://30.60.107.42:5000
+2025-03-17 17:04:47,483 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-17 17:04:47,484 - INFO -  * Restarting with stat
+2025-03-17 17:04:56,001 - WARNING -  * Debugger is active!
+2025-03-17 17:04:56,004 - INFO -  * Debugger PIN: 941-207-197
+2025-03-17 17:04:58,552 - INFO - 127.0.0.1 - - [17/Mar/2025 17:04:58] "GET / HTTP/1.1" 200 -
+2025-03-17 17:04:58,823 - INFO - 127.0.0.1 - - [17/Mar/2025 17:04:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-17 17:04:59,659 - INFO - 127.0.0.1 - - [17/Mar/2025 17:04:59] "GET /editor HTTP/1.1" 200 -
+2025-03-17 17:04:59,982 - INFO - 127.0.0.1 - - [17/Mar/2025 17:04:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-17 17:05:09,529 - INFO - 127.0.0.1 - - [17/Mar/2025 17:05:09] "GET /all_articles HTTP/1.1" 200 -
+2025-03-17 17:05:09,859 - INFO - 127.0.0.1 - - [17/Mar/2025 17:05:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-17 17:05:31,433 - INFO - 127.0.0.1 - - [17/Mar/2025 17:05:31] "GET /editor HTTP/1.1" 200 -
+2025-03-17 17:05:31,760 - INFO - 127.0.0.1 - - [17/Mar/2025 17:05:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-17 17:05:33,076 - INFO - 127.0.0.1 - - [17/Mar/2025 17:05:33] "GET /assign_reviewers HTTP/1.1" 200 -
+2025-03-17 17:05:33,395 - INFO - 127.0.0.1 - - [17/Mar/2025 17:05:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-17 17:05:48,223 - INFO - 127.0.0.1 - - [17/Mar/2025 17:05:48] "[35m[1mGET /logs HTTP/1.1[0m" 500 -
+2025-03-17 17:08:52,575 - INFO -  * Detected change in 'C:\\Users\\fatih.FATIHBAL\\OneDrive\\Masa�st�\\Yazlab_2.1_Guncellenmis\\Yazlab_2.1 - Kopya\\app.py', reloading
+2025-03-17 17:08:52,613 - INFO -  * Restarting with stat
+2025-03-17 17:09:01,131 - WARNING -  * Debugger is active!
+2025-03-17 17:09:01,134 - INFO -  * Debugger PIN: 941-207-197
+2025-03-17 17:09:02,916 - INFO - 127.0.0.1 - - [17/Mar/2025 17:09:02] "GET /logs HTTP/1.1" 200 -
+2025-03-17 17:09:03,181 - INFO - 127.0.0.1 - - [17/Mar/2025 17:09:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-17 17:14:00,873 - INFO -  * Detected change in 'C:\\Users\\fatih.FATIHBAL\\OneDrive\\Masa�st�\\Yazlab_2.1_Guncellenmis\\Yazlab_2.1 - Kopya\\log_service.py', reloading
+2025-03-17 17:14:00,905 - INFO -  * Restarting with stat
+2025-03-17 17:14:09,458 - WARNING -  * Debugger is active!
+2025-03-17 17:14:09,460 - INFO -  * Debugger PIN: 941-207-197
+2025-03-17 17:23:26,175 - INFO -  * Detected change in 'C:\\Users\\fatih.FATIHBAL\\OneDrive\\Masaüstü\\Yazlab_2.1_Guncellenmis\\Yazlab_2.1 - Kopya\\app.py', reloading
+2025-03-17 17:23:26,233 - INFO -  * Restarting with stat
+2025-03-17 17:23:49,418 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://30.60.107.42:5000
+2025-03-17 17:23:49,418 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-17 17:23:49,419 - INFO -  * Restarting with stat
+2025-03-17 17:23:57,868 - WARNING -  * Debugger is active!
+2025-03-17 17:23:57,870 - INFO -  * Debugger PIN: 941-207-197
+2025-03-17 17:23:57,885 - INFO - 127.0.0.1 - - [17/Mar/2025 17:23:57] "GET / HTTP/1.1" 200 -
+2025-03-17 17:23:57,940 - INFO - 127.0.0.1 - - [17/Mar/2025 17:23:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-17 17:24:00,338 - INFO - 127.0.0.1 - - [17/Mar/2025 17:24:00] "GET /editor HTTP/1.1" 200 -
+2025-03-17 17:24:00,583 - INFO - 127.0.0.1 - - [17/Mar/2025 17:24:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-17 17:24:02,351 - INFO - 127.0.0.1 - - [17/Mar/2025 17:24:02] "GET /logs HTTP/1.1" 200 -
+2025-03-17 17:24:02,685 - INFO - 127.0.0.1 - - [17/Mar/2025 17:24:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-17 17:24:58,558 - INFO - 127.0.0.1 - - [17/Mar/2025 17:24:58] "GET / HTTP/1.1" 200 -
+2025-03-17 17:24:58,896 - INFO - 127.0.0.1 - - [17/Mar/2025 17:24:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-17 17:25:00,105 - INFO - 127.0.0.1 - - [17/Mar/2025 17:25:00] "GET /editor HTTP/1.1" 200 -
+2025-03-17 17:25:00,434 - INFO - 127.0.0.1 - - [17/Mar/2025 17:25:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-17 17:25:02,199 - INFO - 127.0.0.1 - - [17/Mar/2025 17:25:02] "GET /logs HTTP/1.1" 200 -
+2025-03-17 17:25:02,533 - INFO - 127.0.0.1 - - [17/Mar/2025 17:25:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-17 17:26:52,815 - INFO -  * Detected change in 'C:\\Users\\fatih.FATIHBAL\\OneDrive\\Masaüstü\\Yazlab_2.1_Guncellenmis\\Yazlab_2.1 - Kopya\\app.py', reloading
+2025-03-17 17:26:52,859 - INFO -  * Restarting with stat
+2025-03-17 17:27:01,470 - WARNING -  * Debugger is active!
+2025-03-17 17:27:01,472 - INFO -  * Debugger PIN: 941-207-197
+2025-03-17 17:27:19,592 - INFO -  * Detected change in 'C:\\Users\\fatih.FATIHBAL\\OneDrive\\Masaüstü\\Yazlab_2.1_Guncellenmis\\Yazlab_2.1 - Kopya\\log_service.py', reloading
+2025-03-17 17:27:19,646 - INFO -  * Restarting with stat
+2025-03-17 17:27:28,175 - 🔹  * Debugger is active!
+2025-03-17 17:27:28,177 - 🔹  * Debugger PIN: 941-207-197
+2025-03-17 17:27:32,201 - 🔹  * Detected change in 'C:\\Users\\fatih.FATIHBAL\\OneDrive\\Masaüstü\\Yazlab_2.1_Guncellenmis\\Yazlab_2.1 - Kopya\\app.py', reloading
+2025-03-17 17:27:32,234 - INFO -  * Restarting with stat
+2025-03-17 17:28:26,589 - 🔹 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://30.60.107.42:5000
+2025-03-17 17:28:26,590 - 🔹 [33mPress CTRL+C to quit[0m
+2025-03-17 17:28:26,591 - 🔹  * Restarting with stat
+2025-03-17 17:28:35,051 - 🔹  * Debugger is active!
+2025-03-17 17:28:35,053 - 🔹  * Debugger PIN: 941-207-197
+2025-03-17 17:29:44,887 - 🔹 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://30.60.107.42:5000
+2025-03-17 17:29:44,888 - 🔹 [33mPress CTRL+C to quit[0m
+2025-03-17 17:29:44,889 - 🔹  * Restarting with stat
+2025-03-17 17:29:53,426 - 🔹  * Debugger is active!
+2025-03-17 17:29:53,428 - 🔹  * Debugger PIN: 941-207-197
+2025-03-17 17:30:14,507 - 🔹  * Detected change in 'C:\\Users\\fatih.FATIHBAL\\OneDrive\\Masaüstü\\Yazlab_2.1_Guncellenmis\\Yazlab_2.1 - Kopya\\app.py', reloading
+2025-03-17 17:30:14,538 - 🔹  * Restarting with stat
+2025-03-17 17:30:23,094 - 🔹 2025-03-17 17:30:23 - Makale 5678, Ali tarafından yüklendi. (Rol: Yazar)
+2025-03-17 17:30:23,095 - 🔹 2025-03-17 17:30:23 - Makale 5678, Ahmet hakemine yönlendirildi. (Rol: Editör)
+2025-03-17 17:30:23,095 - 🔹 2025-03-17 17:30:23 - Makale 5678, hakem tarafından değerlendirildi. (Rol: Hakem)
+2025-03-17 17:30:23,113 - 🔹  * Debugger is active!
+2025-03-17 17:30:23,116 - 🔹  * Debugger PIN: 941-207-197
+2025-03-17 17:30:23,158 - 🔹 127.0.0.1 - - [17/Mar/2025 17:30:23] "GET /logs HTTP/1.1" 200 -
+2025-03-17 17:30:23,218 - 🔹 127.0.0.1 - - [17/Mar/2025 17:30:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-17 17:30:23,968 - 🔹 127.0.0.1 - - [17/Mar/2025 17:30:23] "GET / HTTP/1.1" 200 -
+2025-03-17 17:30:24,230 - 🔹 127.0.0.1 - - [17/Mar/2025 17:30:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-17 17:30:25,410 - 🔹 127.0.0.1 - - [17/Mar/2025 17:30:25] "GET /hakem HTTP/1.1" 200 -
+2025-03-17 17:30:25,731 - 🔹 127.0.0.1 - - [17/Mar/2025 17:30:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-17 17:30:28,314 - 🔹 127.0.0.1 - - [17/Mar/2025 17:30:28] "GET /editor HTTP/1.1" 200 -
+2025-03-17 17:30:28,636 - 🔹 127.0.0.1 - - [17/Mar/2025 17:30:28] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-17 17:30:31,261 - 🔹 127.0.0.1 - - [17/Mar/2025 17:30:31] "GET /logs HTTP/1.1" 200 -
+2025-03-17 17:30:31,581 - 🔹 127.0.0.1 - - [17/Mar/2025 17:30:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-17 17:32:32,889 - 🔹  * Detected change in 'C:\\Users\\fatih.FATIHBAL\\OneDrive\\Masaüstü\\Yazlab_2.1_Guncellenmis\\Yazlab_2.1 - Kopya\\log_service.py', reloading
+2025-03-17 17:32:32,923 - 🔹  * Restarting with stat
+2025-03-17 17:32:41,484 - 🔹 2025-03-17 17:32:41 - Makale 5678, Ali tarafından yüklendi. (Rol: Yazar)
+2025-03-17 17:32:41,485 - 🔹 2025-03-17 17:32:41 - Makale 5678, Ahmet hakemine yönlendirildi. (Rol: Editör)
+2025-03-17 17:32:41,485 - 🔹 2025-03-17 17:32:41 - Makale 5678, hakem tarafından değerlendirildi. (Rol: Hakem)
+2025-03-17 17:32:48,558 - 🔹  * Restarting with stat
+2025-03-17 17:32:57,111 - 🔹 2025-03-17 17:32:57 - Makale 5678, Ali tarafından yüklendi. (Rol: Yazar)
+2025-03-17 17:32:57,111 - 🔹 2025-03-17 17:32:57 - Makale 5678, Ahmet hakemine yönlendirildi. (Rol: Editör)
+2025-03-17 17:32:57,111 - 🔹 2025-03-17 17:32:57 - Makale 5678, hakem tarafından değerlendirildi. (Rol: Hakem)
+2025-03-17 17:33:24,288 - 🔹  * Restarting with stat
+2025-03-17 17:33:32,908 - 🔹 2025-03-17 17:33:32 - Makale 5678, Ali tarafından yüklendi. (Rol: Yazar)
+2025-03-17 17:33:32,908 - 🔹 2025-03-17 17:33:32 - Makale 5678, Ahmet hakemine yönlendirildi. (Rol: Editör)
+2025-03-17 17:33:32,908 - 🔹 2025-03-17 17:33:32 - Makale 5678, hakem tarafından değerlendirildi. (Rol: Hakem)
+2025-03-17 17:34:20,278 - 🔹  * Restarting with stat
+🔹 2025-03-17 17:34:28,819 - 🔹 2025-03-17 17:34:28 - Makale 5678, Ali tarafından yüklendi. (Rol: Yazar)
+🔹 2025-03-17 17:34:28,820 - 🔹 2025-03-17 17:34:28 - Makale 5678, Ahmet hakemine yönlendirildi. (Rol: Editör)
+🔹 2025-03-17 17:34:28,820 - 🔹 2025-03-17 17:34:28 - Makale 5678, hakem tarafından değerlendirildi. (Rol: Hakem)
+🔹 2025-03-17 17:34:28,834 -  * Debugger is active!
+🔹 2025-03-17 17:34:28,836 -  * Debugger PIN: 941-207-197
+🔹 2025-03-17 17:34:47,902 -  * Detected change in 'C:\\Users\\fatih.FATIHBAL\\OneDrive\\Masaüstü\\Yazlab_2.1_Guncellenmis\\Yazlab_2.1 - Kopya\\app.py', reloading
+2025-03-17 17:34:47,937 - 🔹  * Restarting with stat
+🔹 2025-03-17 17:34:56,460 - 🔹 2025-03-17 17:34:56 - Makale 5678, Ali tarafından yüklendi. (Rol: Yazar)
+🔹 2025-03-17 17:34:56,460 - 🔹 2025-03-17 17:34:56 - Makale 5678, Ahmet hakemine yönlendirildi. (Rol: Editör)
+🔹 2025-03-17 17:34:56,461 - 🔹 2025-03-17 17:34:56 - Makale 5678, hakem tarafından değerlendirildi. (Rol: Hakem)
+🔹 2025-03-17 17:34:56,473 -  * Debugger is active!
+🔹 2025-03-17 17:34:56,475 -  * Debugger PIN: 941-207-197
+🔹 2025-03-17 17:34:57,184 - 127.0.0.1 - - [17/Mar/2025 17:34:57] "GET /logs HTTP/1.1" 200 -
+🔹 2025-03-17 17:34:57,440 - 127.0.0.1 - - [17/Mar/2025 17:34:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+🔹 2025-03-17 17:36:25,697 -  * Detected change in 'C:\\Users\\fatih.FATIHBAL\\OneDrive\\Masaüstü\\Yazlab_2.1_Guncellenmis\\Yazlab_2.1 - Kopya\\log_service.py', reloading
+2025-03-17 17:36:25,730 - 🔹  * Restarting with stat
+🔹 2025-03-17 17:36:34,251 - 🔹 2025-03-17 17:36:34 - Makale 5678, Ali tarafından yüklendi. (Rol: Yazar)
+🔹 2025-03-17 17:36:34,251 - 🔹 2025-03-17 17:36:34 - Makale 5678, Ahmet hakemine yönlendirildi. (Rol: Editör)
+🔹 2025-03-17 17:36:34,252 - 🔹 2025-03-17 17:36:34 - Makale 5678, hakem tarafından değerlendirildi. (Rol: Hakem)
+🔹 2025-03-17 17:36:34,264 -  * Debugger is active!
+🔹 2025-03-17 17:36:34,266 -  * Debugger PIN: 941-207-197
+🔹 2025-03-17 17:36:50,347 -  * Detected change in 'C:\\Users\\fatih.FATIHBAL\\OneDrive\\Masaüstü\\Yazlab_2.1_Guncellenmis\\Yazlab_2.1 - Kopya\\app.py', reloading
+2025-03-17 17:36:50,404 - 🔹  * Restarting with stat
+🔹 2025-03-17 17:36:58,958 - 🔹 2025-03-17 17:36:58 - Makale 5678, Ali tarafından yüklendi. (Rol: Yazar)
+🔹 2025-03-17 17:36:58,958 - 🔹 2025-03-17 17:36:58 - Makale 5678, Ahmet hakemine yönlendirildi. (Rol: Editör)
+🔹 2025-03-17 17:36:58,958 - 🔹 2025-03-17 17:36:58 - Makale 5678, hakem tarafından değerlendirildi. (Rol: Hakem)
+🔹 2025-03-17 17:36:58,983 -  * Debugger is active!
+🔹 2025-03-17 17:36:58,985 -  * Debugger PIN: 941-207-197
+🔹 2025-03-17 17:36:59,020 - 127.0.0.1 - - [17/Mar/2025 17:36:59] "GET /logs HTTP/1.1" 200 -
+🔹 2025-03-17 17:36:59,067 - 127.0.0.1 - - [17/Mar/2025 17:36:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+🔹 2025-03-17 17:39:04,459 -  * Detected change in 'C:\\Users\\fatih.FATIHBAL\\OneDrive\\Masaüstü\\Yazlab_2.1_Guncellenmis\\Yazlab_2.1 - Kopya\\log_service.py', reloading
+
+# 2025-03-17 18:02:07 - Makale 7c5e09e3, fatih18b@g.com tarafından yüklendi. (Rol: Yazar)
+# 2025-03-18 16:08:55 - Makale 94d2e4b7, e@g.com tarafından yüklendi. (Rol: Yazar)
+# 2025-03-18 16:16:46 - Hakem değerlendirme yaptı. Makale: 94d2e4b7 (Rol: Hakem)
+# 2025-03-18 16:23:04 - Hakem değerlendirme yaptı. Makale: 7c5e09e3 (Rol: Hakem)
+# 2025-03-26 01:47:56 - Makale 4d911137, fatih18bal.pc@gmail.com tarafından yüklendi. (Rol: Yazar)
+# 2025-03-26 01:49:11 - Makale 023d292d, fatih18b@g tarafından yüklendi. (Rol: Yazar)
+# 2025-03-26 01:49:25 - Makale 6a401e39, fatihbal1834@gmail.com tarafından yüklendi. (Rol: Yazar)
+# 2025-03-26 01:51:32 - Makale 264fe3cc, fatihbal1834@gmail.com tarafından yüklendi. (Rol: Yazar)
+# 2025-03-26 02:07:06 - Makale fe3e7daa, mitakiffarukewiz@gmail.com tarafından yüklendi. (Rol: Yazar)
+# 2025-03-26 03:38:07 - Makale 448be8e2, a@g.com tarafından yüklendi. (Rol: Yazar)
+# 2025-03-26 16:32:26 - Makale e85fda50, fatih18bal.pc@gmail.com tarafından yüklendi. (Rol: Yazar)
+# 2025-03-26 16:37:42 - Makale a5c14ba0, fatih18b@g tarafından yüklendi. (Rol: Yazar)
+# 2025-03-28 04:08:38 - Makale e7d7a326, A@B.com tarafından yüklendi. (Rol: Yazar)
+# 2025-03-28 04:09:08 - Makale c452a620, A@B.com tarafından yüklendi. (Rol: Yazar)
+# 2025-03-28 15:39:59 - Makale bef03ec8, sadasdqsad@gmail.com tarafından yüklendi. (Rol: Yazar)
+# 2025-03-28 15:41:15 - Makale b45fb2b8, b@a.com tarafından yüklendi. (Rol: Yazar)
+# 2025-03-28 16:26:41 - Makale 869b11e3, b@a.com tarafından yüklendi. (Rol: Yazar)
+# 2025-03-28 16:32:29 - Makale 66c1e8e0, b@a.com tarafından yüklendi. (Rol: Yazar)
+# 2025-03-28 17:11:56 - Makale 140dfac1, A@B.com tarafından yüklendi. (Rol: Yazar)
+# 2025-03-28 17:16:08 - Makale 70ff6353, b@a.com tarafından yüklendi. (Rol: Yazar)
+# 2025-03-28 17:18:58 - Makale 881cb385, A@B.com tarafından yüklendi. (Rol: Yazar)
+# 2025-04-02 01:51:25 - Makale f235acca, A@B.com tarafından yüklendi. (Rol: Yazar)
+# 2025-04-02 03:31:25 - Makale 2103dc2c, A@B.com tarafından yüklendi. (Rol: Yazar)
+# 2025-04-02 03:32:50 - Makale fb499a8d, b@a.com tarafından yüklendi. (Rol: Yazar)
+# 2025-04-02 04:16:18 - Makale fc75a599, sadasdqsad@gmail.com tarafından yüklendi. (Rol: Yazar)
+# 2025-04-02 04:19:04 - Makale d83f82a1, A@B.com tarafından yüklendi. (Rol: Yazar)
+# 2025-04-02 04:20:26 - Makale a9499c6e, b@a.com tarafından yüklendi. (Rol: Yazar)
+# 2025-04-02 10:57:22 - Makale 25f7929a, ewizdeneme@gmail.com tarafından yüklendi. (Rol: Yazar)
+# 2025-04-02 11:00:23 - Makale 722ac0b3, ewizdeneme@gmail.com tarafından yüklendi. (Rol: Yazar)
+# 2025-04-02 11:20:40 - Makale f96c1c42, ewizdeneme@gmail.com tarafından yüklendi. (Rol: Yazar)
+# 2025-04-02 11:36:33 - ewizdeneme@gmail.com kullanıcısı editor@example.com kullanıcısına mesaj gönderdi. (Rol: Kullanıcı)
+# 2025-04-02 11:57:56 - Makale 2dd7fda4, ewizdeneme@gmail.com tarafından yüklendi. (Rol: Yazar)
+# 2025-04-02 07:25:51 - Makale fbeb3e38, A@B.com tarafından yüklendi. (Rol: Yazar)
+# 2025-04-02 07:26:09 - Makale fbeb3e38 anonimleştirildi ve veritabanına eklendi. (Rol: Editör)
+# 2025-04-02 17:00:14 - Makale 25f7929a anonimleştirildi ve veritabanına eklendi. (Rol: Editör)
+# 2025-04-02 17:09:03 - Makale 2dd7fda4 anonimleştirildi ve veritabanına eklendi. (Rol: Editör)
+# 2025-04-02 17:10:59 - Makale 4b51b791 anonimleştirildi ve veritabanına eklendi. (Rol: Editör)
+# 2025-04-02 17:11:03 - Makale f96c1c42 anonimleştirildi ve veritabanına eklendi. (Rol: Editör)
+# 2025-04-02 17:11:06 - Makale 722ac0b3 anonimleştirildi ve veritabanına eklendi. (Rol: Editör)
+# 2025-04-02 17:11:06 - Makale 722ac0b3 anonimleştirildi ve veritabanına eklendi. (Rol: Editör)
+# 2025-04-02 17:27:36 - Makale eb69b7b4, ewizdeneme@gmail.com tarafından yüklendi. (Rol: Yazar)
+# 2025-04-02 17:29:07 - Makale 8159a6c4, ewizdeneme@gmail.com tarafından yüklendi. (Rol: Yazar)
+# 2025-04-02 17:30:07 - Makale c5336a1a, ewizdeneme@gmail.com tarafından yüklendi. (Rol: Yazar)
+# 2025-04-02 17:31:10 - Makale 1cf29f19, ewizdeneme@gmail.com tarafından yüklendi. (Rol: Yazar)
+# 2025-04-02 17:32:27 - Makale e1cdc25d, ewizdeneme@gmail.com tarafından yüklendi. (Rol: Yazar)
+# 2025-04-02 17:38:01 - Makale 2dd7fda4, merve.kara@univ.edu hakemine atandı. (Rol: Editör)
+# 2025-04-02 17:38:08 - Makale 2dd7fda4, ahmet.yilmaz@univ.edu hakemine atandı. (Rol: Editör)
+# 2025-04-02 17:38:22 - Makale 2dd7fda4, berk.demir@univ.edu hakemine atandı. (Rol: Editör)
+# 2025-04-02 17:44:53 - Makale e284da4d, ewizdeneme@gmail.com tarafından yüklendi. (Rol: Yazar)
+# 2025-04-02 17:45:20 - Makale c5336a1a anonimleştirildi ve veritabanına eklendi. (Rol: Editör)
+# 2025-04-02 18:21:47 - Hakem berk.demir@univ.edu tarafından Makale 2dd7fda4 değerlendirildi. (Rol: Hakem)
+# 2025-04-02 18:32:36 - Hakem berk.demir@univ.edu tarafından Makale 2dd7fda4 değerlendirildi. (Rol: Hakem)
+# 2025-04-02 18:38:52 - Makale 1cf29f19 anonimleştirildi ve veritabanına eklendi. (Rol: Editör)
+# 2025-04-02 18:38:58 - Makale e1cdc25d anonimleştirildi ve veritabanına eklendi. (Rol: Editör)
+# 2025-04-02 18:44:37 - Makale 8159a6c4 anonimleştirildi ve veritabanına eklendi. (Rol: Editör)
+# 2025-04-02 18:44:59 - Makale e284da4d anonimleştirildi ve veritabanına eklendi. (Rol: Editör)
+# 2025-04-02 18:45:11 - Makale eb69b7b4 anonimleştirildi ve veritabanına eklendi. (Rol: Editör)
+# 2025-04-02 18:46:44 - Makale 4b51b791, can.arslan@univ.edu hakemine atandı. (Rol: Editör)
+# 2025-04-02 19:44:18 - Editör, ewizdeneme@gmail.com yazara mesaj gönderdi: "Çok kötüsün" (Rol: Editör)
+# 2025-04-02 09:29:20 - Makale 552243dd, fatih18@gmail.com tarafından yüklendi. (Rol: Yazar)
+# 2025-04-02 09:29:43 - Makale 552243dd revize edildi ve tekrar değerlendirme için sıraya alındı. (Rol: Editör)
+# 2025-04-02 09:30:00 - fatih18bal.pc@gmail.com kullanıcısı editor@example.com kullanıcısına mesaj gönderdi. (Rol: Kullanıcı)
+# 2025-04-02 09:31:47 - Makale 552243dd anonimleştirildi ve veritabanına eklendi. (Rol: Editör)
+# 2025-04-02 09:32:05 - Makale 1d2a183e, A@B.com tarafından yüklendi. (Rol: Yazar)
+# 2025-04-02 09:32:16 - Makale 1d2a183e anonimleştirildi ve veritabanına eklendi. (Rol: Editör)
+# 2025-04-02 09:33:14 - Makale 552243dd, ayse.demir@hakem.com hakemine atandı. (Rol: Editör)
+# 2025-04-02 09:33:55 - Makale 552243dd, ali.yilmaz@hakem.com hakemine atandı. (Rol: Editör)
+# 2025-04-02 09:35:38 - Hakem ali.yilmaz@hakem.com tarafından Makale 552243dd değerlendirildi. (Rol: Hakem)
+# 2025-04-02 09:38:33 - Makale 552243dd editör tarafından onaylandı ve yazara yönlendirildi. (Rol: Editör)
+# 2025-04-02 09:39:50 - fatih18bal.pc@gmail.com kullanıcısı editor@example.com kullanıcısına mesaj gönderdi. (Rol: Kullanıcı)
+# 2025-04-02 09:40:18 - fatih18bal.pc@gmail.com kullanıcısı editor@example.com kullanıcısına mesaj gönderdi. (Rol: Kullanıcı)
+# 2025-04-02 09:42:41 - Editör, fatih18@gmail.com yazara mesaj gönderdi: "aaaaaaaaa" (Rol: Editör)
+# 2025-04-02 10:06:47 - Hakem ali.yilmaz@hakem.com tarafından Makale 552243dd değerlendirildi. (Rol: Hakem)
+# 2025-04-02 10:10:16 - Hakem ali.yilmaz@hakem.com tarafından Makale 552243dd değerlendirildi. (Rol: Hakem)
+# 2025-04-02 10:13:25 - Hakem ali.yilmaz@hakem.com tarafından Makale 552243dd değerlendirildi. (Rol: Hakem)
+# 2025-04-02 10:20:32 - Makale 552243dd editör tarafından onaylandı ve yazara yönlendirildi. (Rol: Editör)
+# 2025-04-02 10:24:37 - Makale 1d2a183e, nazan.turkmen@hakem.com hakemine atandı. (Rol: Editör)
+# 2025-04-02 10:24:55 - Hakem nazan.turkmen@hakem.com tarafından Makale 1d2a183e değerlendirildi. (Rol: Hakem)
+# 2025-04-02 10:25:18 - Makale 1d2a183e editör tarafından onaylandı ve yazara yönlendirildi. (Rol: Editör)
+# 2025-04-02 10:41:04 - Makale 395ecb7b, b@a.com tarafından yüklendi. (Rol: Yazar)
+# 2025-04-02 10:41:19 - Makale d487e106, fatih18@gmail.com tarafından yüklendi. (Rol: Yazar)
+# 2025-04-02 10:42:01 - Makale d487e106 revize edildi ve tekrar değerlendirme için sıraya alındı. (Rol: Editör)
+# 2025-04-02 10:42:20 - Makale 0f2c5445, A@B.com tarafından yüklendi. (Rol: Yazar)
+# 2025-04-02 10:42:42 - Makale 395ecb7b anonimleştirildi ve veritabanına eklendi. (Rol: Editör)
+# 2025-04-02 10:42:47 - Makale d487e106 anonimleştirildi ve veritabanına eklendi. (Rol: Editör)
+# 2025-04-02 10:42:52 - Makale 0f2c5445 anonimleştirildi ve veritabanına eklendi. (Rol: Editör)
+# 2025-04-02 10:43:08 - Makale 395ecb7b, ali.yilmaz@hakem.com hakemine atandı. (Rol: Editör)
+# 2025-04-02 10:43:30 - Makale d487e106, ayse.demir@hakem.com hakemine atandı. (Rol: Editör)
+# 2025-04-02 10:43:34 - Makale 0f2c5445, nazan.turkmen@hakem.com hakemine atandı. (Rol: Editör)
+# 2025-04-02 10:43:39 - Makale 395ecb7b, ali.yilmaz@hakem.com hakemine atandı. (Rol: Editör)
+# 2025-04-02 10:44:47 - Editör, A@B.com yazara mesaj gönderdi: "göndermiş olduğunuz makale hazır" (Rol: Editör)
+# 2025-04-02 11:09:20 - Makale c936404a, A@B.com tarafından yüklendi. (Rol: Yazar)
+# 2025-04-02 11:09:32 - Makale de8016b9, A@B.com tarafından yüklendi. (Rol: Yazar)
+# 2025-04-02 11:09:56 - Makale c936404a anonimleştirildi ve veritabanına eklendi. (Rol: Editör)
+# 2025-04-02 11:10:02 - Makale de8016b9 anonimleştirildi ve veritabanına eklendi. (Rol: Editör)
+# 2025-04-02 11:10:36 - Makale c936404a, mehmet.kaya@hakem.com hakemine atandı. (Rol: Editör)
+# 2025-04-02 11:10:40 - Makale de8016b9, baris.ozkan@hakem.com hakemine atandı. (Rol: Editör)
+# 2025-04-02 11:11:33 - Hakem baris.ozkan@hakem.com tarafından Makale de8016b9 değerlendirildi. (Rol: Hakem)
+# 2025-04-02 11:12:19 - Makale de8016b9 editör tarafından onaylandı ve yazara yönlendirildi. (Rol: Editör)
+# 2025-04-02 11:17:13 - Hakem baris.ozkan@hakem.com tarafından Makale de8016b9 değerlendirildi. (Rol: Hakem)
+# 2025-04-02 23:09:17 - Makale f2d376c5, ewizdeneme@gmail.com tarafından yüklendi. (Rol: Yazar)
+# 2025-04-02 23:09:41 - Makale f2d376c5 anonimleştirildi ve veritabanına eklendi. (Rol: Editör)
+# 2025-04-02 23:10:04 - Editör, ewizdeneme@gmail.com yazara mesaj gönderdi: "Efendim iyi misiniz" (Rol: Editör)
+# 2025-04-02 23:10:21 - Makale 2dd7fda4 editör tarafından onaylandı ve yazara yönlendirildi. (Rol: Editör)
+# 2025-04-02 23:15:50 - Makale 6b16ff4e, canocano@gmail.com tarafından yüklendi. (Rol: Yazar)
+# 2025-04-02 23:16:00 - Makale 6b16ff4e anonimleştirildi ve veritabanına eklendi. (Rol: Editör)
+# 2025-04-02 23:16:18 - Makale 6b16ff4e, berk.demir@univ.edu hakemine atandı. (Rol: Editör)
+# 2025-04-02 23:20:48 - Makale 2a46e7e3, canocano@gmail.com tarafından yüklendi. (Rol: Yazar)
+# 2025-04-02 23:20:57 - Makale 2a46e7e3 anonimleştirildi ve veritabanına eklendi. (Rol: Editör)
+# 2025-04-02 23:21:07 - Makale 2a46e7e3, can.arslan@univ.edu hakemine atandı. (Rol: Editör)
+# 2025-04-02 23:21:55 - Hakem can.arslan@univ.edu tarafından Makale 2a46e7e3 değerlendirildi. (Rol: Hakem)
+# 2025-04-02 23:28:07 - Makale 2a46e7e3 editör tarafından onaylandı ve yazara yönlendirildi. (Rol: Editör)

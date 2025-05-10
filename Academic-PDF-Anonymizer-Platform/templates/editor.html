@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Editör Paneli</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>🛠️ Editör Paneli</h2>
+
+        <a href="/all_articles"><button>📄 Tüm Makaleleri Görüntüle</button></a>
+        <a href="/anonymize"><button>🔏 Makale Anonimleştir</button></a>
+        <a href="/assign_reviewers"><button>📨 Makale Yönlendir</button></a>
+        <a href="/logs"><button>📜 Makale Log Kayıtlarını Görüntüle</button></a>
+        <a href="/editor/review"><button>📜 Anonimleştirilmiş Makaleyi Düzenle</button></a>
+        <a href="/editor/message"><button>✉️ Yazara Mesaj Gönder</button></a>
+
+
+        <br><br>
+        <a href="/"><button>🏠 Ana Menüye Dön</button></a>
+    </div>
+</body>
+</html>
